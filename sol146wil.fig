@@ -1,0 +1,243 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Used macro
+
+triseccion de un segmento, puntos de triseccion
+Icon:
+0000000000000000
+0000000000000000
+00FF00000000FF00
+00FFF000000FFF00
+00FFFF0000FFFF00
+00FF0FF00FF0FF00
+00FF00FFFF00FF00
+00FF000FF000FF00
+00FF00000000FF00
+00FF00000000FF00
+00FF00000000FF00
+00FF00000000FF00
+00FF00000000FF00
+0000000000000000
+0000000000000000
+0000000000000000
+Help:
+"dado un segmento dividirlo en tres partes iguales"
+Mth: 0
+CN:1, ON:18, FN:2, PO:17
+CT:
+segment, CS 2, V, W, t, DS:1 1, GT:0, V, nSt
+Const:
+Pt/, Mth:1, 0, 0, CN:1, VN:3, Const: 3
+Cir, Mth:1, 0, 0, CN:2, VN:2, Const: 1 4
+Ray, Mth:0, 0, 0, CN:1, VN:2, Const: 1
+Int, Mth:1, 0, 33024, CN:2, VN:1, Const: 6 5
+Pt/, Mth:3, 0, 0, CN:1, VN:3, Const: 5
+Mid, Mth:0, 0, 0, CN:2, VN:1, Const: 8 7
+Sym, Mth:0, 0, 0, CN:2, VN:1, Const: 1 9
+Cir, Mth:1, 0, 0, CN:2, VN:2, Const: 7 10
+Int, Mth:1, 0, 33024, CN:2, VN:1, Const: 6 11
+Mid, Mth:0, 0, 0, CN:2, VN:1, Const: 8 12
+Sym, Mth:0, 0, 0, CN:2, VN:1, Const: 1 13
+Cir, Mth:1, 0, 0, CN:2, VN:2, Const: 12 14
+Int, Mth:1, 0, 256, CN:2, VN:1, Const: 6 15
+Seg, Mth:0, 0, 0, CN:2, VN:0, Const: 16 2
+Par, Mth:0, 0, 0, CN:2, VN:2, Const: 12 17
+Par, Mth:0, 0, 0, CN:2, VN:2, Const: 7 18
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 3 18, R, W, t, DS:1 1, GT:1, V, nSt
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 19 3, R, W, t, DS:1 1, GT:1, V, nSt
+
+Figure description:
+
+Window center x: 7.11729166666667 y: -3.46604166666667 Window size x: 26.6435416666667 y: 16.430625
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: 49, 345, NS: 10, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 1.93145833333333 -8.969375
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B", NP: 255, -26, NS: 12, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 6.588125 0.0264583333333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: 576, 342, NS: 11, 18
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 15.1077083333333 -9.18104166666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+6: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 4 5
+
+"L", NP: 134, 163, NS: 10, 18
+7: Mid, 0, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6
+p: 0, System, S: 0 C: 3 Fa: 0
+
+8: Mid, 2, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 6
+
+"N", NP: 197, 346, NS: 12, 18
+9: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 3
+p: 0, System, S: 0 C: 3 Fa: 0
+
+10: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 8 5
+
+Ma: triseccion de un segmento, Const: 6 i: 129
+27: Ma R, F No1, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+
+"M", NP: 365, 101, NS: 14, 18
+28: Ma R, F No2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+p: 0, System, S: 0 C: 3 Fa: 0
+
+29: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 28
+
+30: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 9
+
+"P", NP: 216, 230, NS: 11, 18
+31: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 30 29
+p: 0, System, S: 0 C: 3 Fa: 0
+
+32: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 31
+
+33: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 7
+
+34: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 4
+
+35: Seg, 0, CN:2, VN:0
+R, W, tT, DS:1 1, GT:0, V, nSt
+Const: 4 28
+
+36: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 28 5
+
+37: Seg, 0, CN:2, VN:0
+R, W, tT, DS:1 1, GT:0, V, nSt
+Const: 5 9
+
+38: Seg, 0, CN:2, VN:0
+G, W, tT, DS:1 1, GT:0, V, nSt
+Const: 9 3
+
+"a", NP: 103, 217, NS: 10, 18
+39: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 33, Val: 3.343125 -6.24229166666666
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"a", NP: 174, 82, NS: 10, 18
+40: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 34, Val: 5.17645833333333 -2.700625
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"b", NP: 326, 42, NS: 10, 18
+41: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 35, Val: 8.33573183760683 -1.86225961538461
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"2b", NP: 478, 203, NS: 18, 18
+42: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 36, Val: 12.1430181623932 -5.97696657509158
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"3c", NP: 393, 358, NS: 17, 18
+43: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 37, Val: 10.3609847308489 -9.10478907867495
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"c", NP: 150, 344, NS: 9, 18
+44: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 38, Val: 4.00473990683229 -9.00268072808834
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"x", NP: 144, 283, NS: 10, 18
+45: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 29, Val: 3.84917474160207 -7.45325096899224
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"y", NP: 273, 181, NS: 10, 18
+46: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 29, Val: 7.23631021594684 -4.77542151162791
+p: 0, System, S: 0 C: 3 Fa: 0
+
+47: Seg, 0, CN:2, VN:0
+R, W, tT, DS:1 1, GT:0, V, nSt
+Const: 3 31
+
+48: Seg, 0, CN:2, VN:0
+G, W, tT, DS:1 1, GT:0, V, nSt
+Const: 31 28
+
+49: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 35
+
+50: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 36
+
+51: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:2, V, nSt
+Const: 49, Val: 7.82914705632822 1.17476035097036
+
+52: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 51 49
+
+53: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:2, V, nSt
+Const: 52 50
+
+54: Seg, 0, CN:2, VN:0
+G, W, tT, DS:1 1, GT:0, V, nSt
+Const: 51 53
+
+"3b", NP: 470, 108, NS: 18, 18
+55: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 54, Val: 11.9185915450827 -3.24488773004383
+p: 0, System, S: 0 C: 3 Fa: 0
+
+56: Tr, 0, CN:3, VN:0
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 28 3 5
+

@@ -1,0 +1,311 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Used macro
+
+Circunferencia Circunscrita, no name
+Icon:
+0000000000000000
+0000063333000000
+0003360000330000
+0030606000003000
+0300600600000300
+0300600060000300
+3006000006000030
+3006000306000030
+3006003330600030
+3060000300060030
+3060000000006030
+0360000000000600
+0666666666666300
+0030000000003000
+0003300000330000
+0000033333000000
+Help:
+"Seleccione un triángulo (o tres puntos) para construir la circunferencia que pasa por los tres vértices."
+Mth: 0
+CN:1, ON:4, FN:2, PO:3
+CT:
+triangle, CS 3, P, W, t, DS:1 1, GT:0, V, nSt
+Const:
+PBiss, Mth:1, 0, 2, CN:1, VN:2, Const: 4
+PBiss, Mth:1, 0, 0, CN:1, VN:2, Const: 4
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 5 6, R, W, t, DS:1 1, GT:1, V, nSt
+Cir, Mth:1, 1, 0, CN:2, VN:2, Const: 7 1, Bl, W, t, DS:1 1, GT:0, V, nSt
+Mth: 1
+CN:3, ON:5, FN:2, PO:4
+CT:
+point, CS 0, R, W, t, DS:1 1, GT:1, V, nSt
+point, CS 0, R, W, t, DS:1 1, GT:1, V, nSt
+point, CS 0, R, W, t, DS:1 1, GT:1, V, nSt
+Const:
+Tr, Mth:0, 0, 0, CN:3, VN:0, Const: 1 2 3
+PBiss, Mth:1, 0, 2, CN:1, VN:2, Const: 4
+PBiss, Mth:1, 0, 0, CN:1, VN:2, Const: 4
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 5 6, R, W, t, DS:1 1, GT:1, V, nSt
+Cir, Mth:1, 1, 0, CN:2, VN:2, Const: 7 1, Bl, W, t, DS:1 1, GT:0, V, nSt
+
+Figure description:
+
+Window center x: -7.91104166666667 y: 2.2225 Window size x: 16.2983333333333 y: 9.73666666666667
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: -109, -175, NS: 11, 19
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.778125 4.02166666666667
+p: 0, Arial Black, S: 12 C: 15 Fa: 0
+
+"B", NP: -215, 52, NS: 11, 19
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -5.37104166666667 -1.40229166666667
+p: 0, Arial Black, S: 12 C: 15 Fa: 0
+
+"C", NP: 139, 48, NS: 11, 19
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 3.54541666666667 -1.40229166666667
+p: 0, Arial Black, S: 12 C: 15 Fa: 0
+
+6: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4 5
+
+7: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 3
+
+"P", NP: -176, -47, NS: 14, 21
+8: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7, Val: -4.44771036585366 0.529166666666667
+p: 0, Arial Black, S: 14 C: 15 Fa: 1
+
+9: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 3
+
+10: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 4
+
+"B", NP: -271, -305, NS: 12, 18
+11: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 9 10
+p: 0, System, S: 9 C: 7 Fa: 0
+
+"2P", NP: -226, 106, NS: 19, 18
+12: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 3 8
+p: 0, System, S: 9 C: 7 Fa: 0
+
+Ma: Circunferencia Circunscrita, Const: 11 i: 0 5 i: 0 12 i: 0
+16: Ma R, F No1, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+
+17: Ma R, F No2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+18: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 3
+
+"X", NP: 5, -377, NS: 11, 18
+19: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 18 17
+p: 0, System, S: 9 C: 7 Fa: 0
+
+20: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 19
+
+21: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 6 20
+
+22: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 20
+
+23: Int, 32769, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 6 20
+
+24: Int, 33025, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 6 20
+
+25: Int, 32770, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 20
+
+"X", NP: 86, -11, NS: 15, 21
+26: Int, 33026, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 20
+p: 0, Arial Black, S: 14 C: 15 Fa: 1
+
+27: Tr, 0, CN:3, VN:0
+V, O, t, DS:1 1, GT:1, V, nSt
+Const: 8 26 3
+
+28: Area, 0, CN:1, VN:1
+B, W, NbD:130, FD, cm2, GT:0, V, nSt
+Const: 27, Val: -455 113 17271.3, A, P
+p: 0, Arial Black, S: 12 C: 15 Fa: 0
+
+29: Text, 0, CN:2, VN:3
+B, W, BTh:0, DS:1 1, GT:0, V, nSt
+Const: 27 28, Val: -534 113 0, A, nP, TP: -14.12875, -2.98979166666667,TS: 3.86291666666667, -0.502708333333333
+"Area (APX)="#"
+p: 0, Arial Black, S: 12 C: 15 Fa: 0
+
+30: Pol, 0, CN:4, VN:0
+V, P, t, DS:1 1, GT:1, V, nSt
+Const: 4 8 26 5
+
+31: Area, 0, CN:1, VN:1
+B, W, NbD:130, FD, cm2, GT:0, V, nSt
+Const: 30, Val: -449 79 17271.3, A, P
+p: 0, Arial Black, S: 12 C: 15 Fa: 0
+
+32: Text, 0, CN:2, VN:3
+B, W, BTh:0, DS:1 1, GT:0, V, nSt
+Const: 30 31, Val: -537 79 0, A, nP, TP: -14.208125, -2.09020833333333,TS: 4.10104166666667, -0.502708333333333
+"Area (BPXC)="#"
+p: 0, Arial Black, S: 12 C: 15 Fa: 0
+
+33: Text, 0, CN:0, VN:1
+B, W, BTh:0, DS:1 1, GT:0, V, nSt
+Val: -587 -167 0, nA, nP, TP: -15.5310416666667, 4.41854166666667,TS: 7.72583333333333, -0.9525
+"* X  estará sobre AC siempre que  AB/2< AP. 
+* X' estará sobre BC siempre que  AB/2> AP. "
+p: 0, Arial Black, S: 12 C: 15 Fa: 0
+
+34: Text, 0, CN:0, VN:1
+B, W, BTh:0, DS:1 1, GT:0, V, nSt
+Val: -539 -228 0, nA, nP, TP: -14.2610416666667, 6.0325,TS: 6.00604166666667, -0.502708333333333
+"Sea P, un  punto sobre el lado AB. "
+p: 0, Arial Black, S: 12 C: 15 Fa: 0
+
+"C'", NP: -168, -70, NS: 14, 19
+35: Mid, 0, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7
+p: 0, Arial Black, S: 12 C: 15 Fa: 0
+
+36: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 4
+
+37: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 36, Val: -10.5833333333333 -1.40229166666667
+
+38: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 37
+
+39: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 3
+
+"A", NP: -425, 48, NS: 10, 18
+40: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 38 39
+p: 0, System, S: 9 C: 7 Fa: 0
+
+"2P", NP: -128, -98, NS: 19, 18
+41: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 4 8
+p: 0, System, S: 9 C: 7 Fa: 0
+
+Ma: Circunferencia Circunscrita, Const: 41 i: 0 5 i: 0 40 i: 0
+45: Ma R, F No1, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+
+46: Ma R, F No2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+47: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 8
+
+48: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 47, Val: -5.88810719512195 -2.48390833333333
+
+49: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 48
+
+50: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 49 46
+
+"X'", NP: -402, 475, NS: 15, 18
+51: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 49 46
+p: 0, System, S: 9 C: 7 Fa: 0
+
+52: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 51
+
+"X'", NP: 134, 62, NS: 20, 21
+53: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 52
+p: 0, Arial Black, S: 14 C: 15 Fa: 1
+
+54: Tr, 0, CN:3, VN:0
+V, O, t, DS:1 1, GT:1, V, nSt
+Const: 4 8 53
+
+55: Pol, 0, CN:4, VN:0
+V, P, t, DS:1 1, GT:1, V, nSt
+Const: 8 3 5 53
+
+56: Area, 0, CN:1, VN:1
+B, W, NbD:130, FD, cm2, GT:0, V, nSt
+Const: 55, Val: -30 125 17271.3, A, P
+p: 0, System, S: 9 C: 15 Fa: 0
+
+57: Text, 0, CN:2, VN:3
+B, W, BTh:0, DS:1 1, GT:0, V, nSt
+Const: 55 56, Val: -118 125 0, nA, nP, TP: -3.12208333333333, -3.30729166666667,TS: 2.59291666666667, -0.47625
+"Area (PACX')="#"
+p: 0, System, S: 9 C: 15 Fa: 0
+
+58: Area, 0, CN:1, VN:1
+B, W, NbD:130, FD, cm2, GT:0, V, nSt
+Const: 54, Val: -40 100 17271.3, A, P
+p: 0, System, S: 9 C: 15 Fa: 0
+
+59: Text, 0, CN:2, VN:3
+B, W, BTh:0, DS:1 1, GT:0, V, nSt
+Const: 54 58, Val: -121 100 0, nA, nP, TP: -3.20145833333333, -2.64583333333333,TS: 2.40770833333333, -0.47625
+"Area (BPX')="#"
+p: 0, System, S: 9 C: 15 Fa: 0
+
+60: Seg, 0, CN:2, VN:0
+G, W, tT, DS:1 1, GT:0, V, nSt
+Const: 8 53
+
+61: Seg, 0, CN:2, VN:0
+G, W, tT, DS:1 1, GT:0, V, nSt
+Const: 8 26
+

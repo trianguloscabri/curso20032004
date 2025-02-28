@@ -1,0 +1,94 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 0 y: 0 Window size x: 26.67 y: 16.8275
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"B", NP: -149, 72, NS: 11, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.02166666666667 -1.77270833333333
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+"C", NP: 34, 62, NS: 11, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.767291666666667 -1.77270833333333
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+5: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+6: PBiss, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5
+
+"A", NP: -54, -146, NS: 11, 18
+7: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6, Val: -1.6271875 3.730625
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+"X", NP: -92, 62, NS: 9, 18
+8: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5, Val: -2.56645833333333 -1.77270833333333
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+9: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 8 5
+
+10: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 3 4
+
+11: Line, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 4
+
+12: Line, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 7
+
+"F", NP: -92, -63, NS: 10, 18
+13: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 12
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+"G", NP: -92, -228, NS: 12, 18
+14: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 11
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+"r", NP: 47, -140, NS: 6, 18
+15: Par, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 5
+p: 0, Arial, S: 13 C: 12 Fa: 0
+
+"Y", NP: -108, -139, NS: 11, 18
+16: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 15
+p: 0, Arial, S: 13 C: 3 Fa: 0
+
+17: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -280 -182 0, nA, nP, TP: -7.40833333333333, 4.81541666666667,TS: 4.15395833333333, -0.635
+"Moveu A, B, C o X"
+p: 0, Arial, S: 19 C: 3 Fa: 0
+
+18: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 13 7
+

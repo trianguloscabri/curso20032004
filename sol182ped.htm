@@ -1,0 +1,850 @@
+<html>
+
+<head>
+<meta name="generator" content="Microsoft FrontPage 5.0">
+<meta http-equiv="content-Type" content="text/html; charset=utf-8">
+
+<style>
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0pt;
+	border-color: black;
+	empty-cells: show;
+	font-family: "Times New Roman", serif;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal
+}
+
+td
+{
+	border-color: black
+}
+
+p
+{
+	margin-top: 0px;
+	margin-bottom: 1px
+}
+
+span.WPParaBox
+{
+	padding: 0px;
+	width: 100%;
+	margin: 0px;
+	display: block
+}
+
+div.WPParaBoxWrapper
+{
+	padding: 0px;
+	float: left
+}
+
+body
+{
+	font-family: "Times New Roman", serif;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal
+}
+</style>
+
+</head>
+
+<body>
+<div align="center">
+<table width="754" cellpadding="6" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111">
+<tr>
+<td colspan="4" width="100%" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"></span>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">&#160;</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="background-color: #7d7dff; border: 0.0133333in solid #636363" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-size: 8pt; color:#ffffff">Propuesto por Saturnino Campo Ruiz, profesor del IES Fray Luis de Le&oacute;n, de Salamanca</span></span></p>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #ffffff">Problema 182 - EL TEOREMA DE LOS POL&Iacute;GONOS CERRADOS DE PONCELET.</span></span></p>
+<br>
+<p align="justify">
+<span style="color: #ffffff; font-size:10pt; font-family:Times New Roman, serif">Se tienen dos circunferencias una k dentro de otra K. Supongamos que desde un punto A de K (la exterior) sucede lo siguiente: Trazamos por
+A una tangente a k que vuelve a cortar a K en B; por B trazamos la otra tangente a k, que vuelve a cortar a K en C; por C trazamos la otra
+tangente a k, que resulta que vuelve a cortar a K en A (es decir, se cierra la sucesi&oacute;n de tres tangentes). Entonces eso mismo pasa (es decir el
+tri&aacute;ngulo tambi&eacute;n se cierra) cuando hacemos la misma operaci&oacute;n partiendo de cualquier otro punto A* de K.</span></p>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #ffffff">&iexcl;Demostrarlo! </span></span></p>
+<br>
+<p style="text-align: right">
+<span style="font-size: 8pt; font-family:Times New Roman, serif">
+<span style="font-size: 8pt; color:#ffffff">Guzm&aacute;n, M. de (2002): La experiencia de descubrir en Geometr&iacute;a. Nivola Libros p&aacute;g. 102. </span></span></p>
+<br>
+<p style="text-align: justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #ffffff"><span style="font-weight: bold">En el enunciado anterior puede sustituirse la palabra circunferencia(s) por c&oacute;nica(s) y el enunciado subsiste</span>.</span></span></p>
+<br>
+<p style="text-align: justify">
+<span style="font-size: 8pt; font-family:Times New Roman, serif">
+<span style="color: #ffff00; font-size:8pt">Soluci&oacute;n de Jos&eacute; Mar&aacute; Pedret, Ingeniero Naval. Esplugues de Llobregat (Barcelona)</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">&#160;</span></p>
+</td>
+</tr>
+<tr>
+<td width="8%" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="font-weight: bold">0.</span></span></p>
+</td>
+<td colspan="3" width="92%" style="border: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="font-weight: bold">INTRODUCCION</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">&#160;</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">&iexcl;Qu&eacute; hermoso problema nos ha propuesto SATURNINO CAMPO! Este problema es un caso particular de un teorema mucho m&aacute;s potente que
+asegura el mismo resultado para c&oacute;nicas y pol&iacute;gonos de n lados (n &#8805; 3). No est&aacute; de m&aacute;s, echar un vistazo a la p&aacute;gina del admirado PROFESOR
+GUZMAN sobre este tema:</span></p>
+<br>
+<p><span style="font-size: 11pt; font-family:Times New Roman, serif"></span><a href="http://nonio.mat.uc.pt/PENSAS_EN02/experdescgeomet/11poncelet/11poncelet.html">
+<span style="font-size: 11pt; font-family:Times New Roman, serif">
+<span style="text-decoration: underline; color:#0000ff">http://nonio.mat.uc.pt/PENSAS_EN02/experdescgeomet/11poncelet/11poncelet.html</span></span></a></p>
+<br>
+<p>
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Como sugiere SATURNINO, me dedicar&eacute; al caso del tri&aacute;ngulo y c&oacute;nicas en general. M&aacute;s adelante, con tiempo, presentar&eacute; una generalizaci&oacute;n
+al pol&iacute;gono de n lados parecida a la del profesor SANTALO en su libro de geometr&iacute;a proyectiva.</span></p>
+<br>
+<p>
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Existe una infinidad de referencias bibliogr&aacute;ficas respecto a este tema.</span></p>
+<br>
+<p>
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Aunque la intenci&oacute;n es usar los resultados m&aacute;s sencillos, podemos ver el documento sobre c&oacute;nicas proyectivas del problema 137 de las p&aacute;ginas
+de RICARDO BARROSO:</span></p>
+<br>
+<p><a href="sol/sol137pedcp.pdf">
+<span style="font-size: 11pt; font-family:Times New Roman, serif">
+<span style="text-decoration: underline; color:#0000ff">sol/sol137pedcp.pdf</span></span></a></p>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">La demostraci&oacute;n que pretendo se basar&aacute; en:</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="8%" style="border-right: none; border-bottom: none; border-left: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">-</span></span></p>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">-</span></span></p>
+<br>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">-</span></span></p>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">-</span></span></p>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">-</span></span></p>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">-</span></span></p>
+</td>
+<td colspan="3" width="92%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">la definici&oacute;n cl&aacute;sica de las c&oacute;nicas,</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">una propiedad de las c&oacute;nicas y sus tangentes, base de toda la teor&iacute;a de estas curvas que demostraremos apoy&aacute;ndonos en el c&iacute;rculo
+y sus propiedades,</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">veremos a continuaci&oacute;n propiedades relativas a los puntos de la c&oacute;nica</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">y propiedades relativas a las tangentes,</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">de lo anterior, podremos deducir un teorema (GRAN TEOREMA DE PONCELET)</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">y como corolario el resultado buscado.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">La originalidad en un tema como &eacute;ste es dif&iacute;cil; creo que lo que esta presentaci&oacute;n aporta es un camino simple y detallado para llegar al
+resultado. Se me ha ocurrido porque conoc&iacute;a el teorema de Poncelet y como lo que pretendo es simplicidad, no usar&eacute; conceptos de dualidad
+o correlaci&oacute;n (polos y polares).</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">La demostraci&oacute;n supone conocido:</span></p>
+</td>
+</tr>
+<tr>
+<td width="8%" style="border-right: none; border-left: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">-</span></span></p>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">-</span></span></p>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">-</span></span></p>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">-</span></span></p>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">-</span></span></p>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">-</span></span></p>
+</td>
+<td colspan="3" width="92%" style="border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">que es un cono y algo de &aacute;ngulos inscritos en c&iacute;rculos,</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">que es un haz de rectas</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">que es la raz&oacute;n doble (de cuatro puntos y de cuatro rectas de un haz) y sus propiedades</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">que es una tangente</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">que es una proyecci&oacute;n</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">y que es una homograf&iacute;a .</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="8%" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">1.</span></span></p>
+</td>
+<td colspan="3" width="92%" style="border: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">DEFINICION CLASICA DE CONICA</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; height: 0.3375in; border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Se denomina SECCIONES CONICAS o simplemente CONICAS las curvas por las que un cono de base circular puede ser cortado por planos
+cualesquiera.</span></p>
+<p align="justify">
+<br>
+</p>
+<p style="text-align: right">
+<span style="font-size: 11pt; color:#000000; font-family:Times New Roman, serif">Las im&aacute;genes son de </span><a href="http://www.math2.org/math/algebra/es-conics.htm">
+<span style="font-size: 11pt; font-family:Times New Roman, serif">
+<span style="text-decoration: underline; color:#0000ff">http://www.math2.org/math/algebra/es-conics.htm</span></span></a></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="34%" style="border-right: none; border-bottom: none; border-left: none; border-top: none" valign="top" align="center">
+<div class="WPParaBoxWrapper" style="width: 141px; float: none"><span class="WPParaBox" style="border: none">
+<img src="barroso182/cone-ell.jpg" alt="cone-ell.jpg" width="139" height="201" border="0"></span></div>
+<p style="text-align: center">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">ELIPSE</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Si el plano cualquiera corta todas las aristas
+del cono, lo corta en una curva cerrada.</span></p>
+</td>
+<td width="33%" style="border-right: none; border-left: none; border-top: none" valign="top" align="center">
+<div class="WPParaBoxWrapper" style="width: 141px; float: none"><span class="WPParaBox" style="border: none">
+<img src="barroso182/cone-par.jpg" alt="cone-par.jpg" width="139" height="201" border="0"></span></div>
+<p style="text-align: center">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">PARABOLA</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Si el plano es paralelo a alg&uacute;n plano
+tangente del cono lo corta en una curva con
+una rama infinita.</span></p>
+</td>
+<td width="33%" style="border-left: none; border-right: none; border-top: none" valign="top" align="center">
+<div class="WPParaBoxWrapper" style="width: 141px; float: none"><span class="WPParaBox" style="border: none">
+<img src="barroso182/cone-hyp.jpg" alt="cone-hyp.jpg" width="139" height="201" border="0"></span></div>
+<p style="text-align: center">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">HIPERBOLA.</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Si el plano es paralelo a dos aristas del cono,
+lo corta en una curva con dos ramas infinitas.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="8%" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">2.</span></span></p>
+</td>
+<td colspan="3" width="92%" style="border: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">PROPIEDAD BASICA DE LAS CONICAS</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Teorema 2</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif"><span style="font-variant: small-caps">Sean las tangentes por cuatro puntos de una c&oacute;nica y sean otras cuatro rectas concurrentes en un punto de la curva. La
+raz&oacute;n doble de estas cuatro rectas ser&aacute; igual a la de los cuatro puntos de encuentro de las cuatro tangentes con una
+quinta tangente cualquiera</span>.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Demostraci&oacute;n</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Como las proyecciones (centro de proyecci&oacute;n el v&eacute;rtice del cono y rayos las aristas) conservan la raz&oacute;n doble de cuatro puntos y de cuatro rectas,
+bastar&aacute; demostrar este teorema para el c&iacute;rculo que forma la base del cono sobre el que se considere la c&oacute;nica. Sobre el c&iacute;rculo, la prueba no
+s&oacute;lo es m&aacute;s sencilla sino que resulta casi evidente.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top" align="center">
+<div class="WPParaBoxWrapper" style="width: 477px; float: none"><span class="WPParaBox" style="border: none">
+<img src="barroso182/182-01.gif" alt="182-01.gif" width="475" height="352" border="0"></span></div>
+<p>
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">&#160;</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Sean A, B, C, D cuatro puntos del c&iacute;rculo; AA&#8217;,  BB&#8217;, CC&#8217;, DD&#8217; las tangentes en estos puntos y A&#8217;, B&#8217;, C&#8217;, D&#8217; los puntos de encuentro de estas
+tangentes con t la tangente al c&iacute;rculo por un quinto punto T.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif"><span style="font-variant: small-caps">Sea P un punto cualquiera del c&iacute;rculo. El haz de rectas PA, PB, PC, PD tiene la misma raz&oacute;n doble que los cuatro punto
+alineados A&#8217;, B&#8217;, C&#8217;, D&#8217;</span>:</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">El &aacute;ngulo &#8736;APB es igual al &aacute;ngulo &#8736;ATB; y &eacute;ste a su vez al &aacute;ngulo &#8736;A&#8217;OB&#8217; por ser &aacute;ngulos con los lados perpendiculares. Entonces Las rectas
+PA, PB, PC, PD forman entre s&iacute; los mism &aacute;ngulos que las rectas OA&#8217;, OB&#8217;, OC&#8217;, OD&#8217; y por tanto los dos haces tienen la misma raz&oacute;n doble.
+Como  OA&#8217;, OB&#8217;, OC&#8217;, OD&#8217; tiene la misma raz&oacute;n doble que A&#8217;, B&#8217;, C&#8217;, D&#8217;, obtenemos el resultado buscado.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="8%" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">3.</span></span></p>
+</td>
+<td colspan="3" width="92%" style="border: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">PROPIEDAD FUNDAMENTAL RELATIVA A LOS PUNTOS DE LAS CONICAS</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Teorema 3</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif"><span style="font-variant: small-caps">Si de cuatro puntos de una c&oacute;nica trazamos rectas que concurren en un quinto punto de la c&oacute;nica; la raz&oacute;n doble de esas
+cuatro rectas tiene un valor constante independiente del quinto punto</span>.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Demostraci&oacute;n</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Poco hay que demostrar atendiendo a lo anterior (teorema 2), ya que las cuatro rectas PA, PB, PC, PD tienen la raz&oacute;n doble igual a la de los
+cuatro puntos de intersecci&oacute;n de las cuatro tangentes por <span style="font-variant: small-caps">A, B, C, D</span> con una quinta tangente y eso para cualquier punto P de la c&oacute;nica.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Otra forma de enunciado. Teorema 3.1</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Seg&uacute;n lo visto, dados dos puntos fijos de la c&oacute;nica P y P&#8217; y uni&eacute;ndolos a otros cuatro puntos de la c&oacute;nica  tendremos dos haces de cuatro rectas
+con la misma raz&oacute;n doble y por lo tanto el teorema 3 se puede enunciar como sigue:</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-variant: small-caps; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Si desde dos puntos fijos de una c&oacute;nica se trazan sendas rectas variables que se cortan siempre sobre la curva, entonces
+esas rectas forman dos haces homogr&aacute;ficos.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Teorema 3.2 rec&iacute;proco</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif"><span style="font-variant: small-caps">La curva, lugar geom&eacute;trico de los puntos de intersecci&oacute;n de las rectas hom&oacute;logas de dos haces homogr&aacute;ficos, es una
+c&oacute;nica que pasa por los v&eacute;rtices de los dos haces</span>.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Esto equivale a decir que podemos hacer pasar por la curva un cono de base circular. (No demuestro el teorema rec&iacute;proco porque en este
+ejercicio no nos es necesario).</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<div class="WPParaBoxWrapper" style="width: 729px; float: none"><span class="WPParaBox" style="border: none">
+<BODY BGCOLOR="#FFFFFF">
+<P ALIGN=center><APPLET CODE="CabriJava.class" WIDTH="800" HEIGHT="400" ALIGN=bottom ARCHIVE="CabriJava.jar">
+	<PARAM NAME=file VALUE="182Banim.fig">
+	<PARAM NAME=lang VALUE="es">
+	<PARAM NAME=border VALUE="0">
+	<PARAM NAME=autocontrol VALUE="false">
+	<PARAM NAME=spring VALUE="point 22 size -1,0 ">
+</APPLET>
+</BODY>
+</span></div>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="8%" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">4.</span></span></p>
+</td>
+<td colspan="3" width="92%" style="border: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">PROPIEDAD FUNDAMENTAL RELATIVA A LAS TANGENTES DE LAS CONICAS</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="font-size: 9pt; color:#000000; font-family:Times New Roman, serif"><span style="font-weight: bold">Teorema 4</span></span></p>
+<p align="justify">
+<span style="font-variant: small-caps; font-size:9pt; color:#000000; font-family:Times New Roman, serif">Cuatro tangentes fijas de una conica son cortadas por una quinta tangente cualquiera en cuatro puntos cuya raz&oacute;n doble es constante.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; font-size:9pt; color:#000000; font-family:Times New Roman, serif">Demostraci&oacute;n</span></p>
+<p align="justify">
+<span style="font-size: 9pt; color:#000000; font-family:Times New Roman, serif">Demostraci&oacute;n simple, ya que como hemos visto con la propiedad b&aacute;sica (teorema 2), esta raz&oacute;n doble es la de cuatro rectas por los puntos de contacto y que
+concurren sobre un quinto punto fijo y arbitrario de la c&oacute;nica.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; font-size:9pt; color:#000000; font-family:Times New Roman, serif">Otro forma de enunciado. Teorema 4.1</span></p>
+<p align="justify">
+<span style="font-size: 9pt; color:#000000; font-family:Times New Roman, serif"><span style="font-variant: small-caps">Los puntos de intersecci&oacute;n de una tangente m&oacute;vil con dos tangentes fijas son  homogr&aacute;ficos</span>.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; font-size:9pt; color:#000000; font-family:Times New Roman, serif">Teorema 4.2 rec&iacute;proco</span></p>
+<p align="justify">
+<span style="font-size: 9pt; color:#000000; font-family:Times New Roman, serif"><span style="font-variant: small-caps">La curva envolvente, de las rectas que unen los puntos hom&oacute;logos en una homograf&iacute;a de dos rectas, es una c&oacute;nica tangente a esas dos
+rectas</span>.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; font-size:9pt; color:#000000; font-family:Times New Roman, serif">Demostraci&oacute;n (M. Chasles)</span></p>
+<p align="justify">
+<span style="font-size: 9pt; color:#000000; font-family:Times New Roman, serif">Este enunciado equivale a decir que podemos hacer pasar por la curva un cono de base circular.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; height: 3.92333in; border-left: none; border-right: none; border-top: none" valign="top">
+<div class="WPParaBoxWrapper" style="width: 729px; float: none"><span class="WPParaBox" style="border: none">
+<img src="barroso182/182-021.gif" alt="182-021.gif" width="727" height="353" border="0"></span></div>
+<p><span style="color: #000000; font-family:Times New Roman, serif">&#160;</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Sea dos rectas r y r&#8217; y una homograf&iacute;a entre ellas definida por A&#8594;A&#8217;, B&#8594;B&#8217;, C&#8594;C&#8217; con A, B, C sobre r y A&#8217;, B&#8217;, C&#8217; sobre r&#8217;. (el punto r&#8745;r&#8217; como
+punto de r es C y como punto de r&#8217; es B&#8217;)</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Sea t la recta que une dos puntos hom&oacute;logos cualesquiera (en la figura AA&#8217;), Observando la figura, vemos que la curva envolvente ser&aacute; tangente
+a BB&#8217; y por tanto tangente a r en B y la envolvente tambi&eacute;n ser&aacute; tangente a CC&#8217; y por tanto tangente a r&#8217; en C&#8217;.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Trazamos por B un c&iacute;rculo tangente a r y llevamos tangentes a este c&iacute;rculo desde todos los puntos de r (en la figura desde A). Sea r&#8221; la tangente
+al c&iacute;rculo desde r&#8745;r&#8217;; entonces todas las tangentes desde un punto A de r encontrar&aacute;n a r&#8221; en un punto A&#8221;. Por el teorema directo 4.1 A y A&#8221;
+son homogr&aacute;ficos ; pero A y A&#8217; tambi&eacute;n son homogr&aacute;ficos, entonces A&#8221; y A&#8217; son tambi&eacute;n homogr&aacute;ficos, pues dos rectas homogr&aacute;ficas a una
+tercera son homogr&aacute;ficas entre s&iacute;.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Basta observar la figura para ver que r&#8745;r&#8217;=B&#8217;=B&#8221; es un punto com&uacute;n de esta homograf&iacute;a entre r&#8217; y r&#8221;. Podemos pues decir que esa &uacute;ltima
+homograf&iacute;a es una PROYECC&Iacute;ON pues una homograf&iacute;a entre rectas  es una proyecci&oacute;n si y s&oacute;lo si el punto de intersecci&oacute;n de las rectas se
+transforma en s&iacute; mismo. (Igual ocurrir&iacute;a si hici&eacute;ramos girar el plano del c&iacute;rculo y la tangente r&#8221; en torno de la recta r; es decir, para cada
+posici&oacute;n de ese plano las rectas A&#8217;A&#8221; concurren en un mismo punto del espacio).</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Entonces todas las rectas del tipo A&#8217;A&#8221; pasar&aacute;n siempre por un punto fijo &#937; (centro de proyecci&oacute;n). Tomando ese centro de proyecci&oacute;n &#937;
+podremos considerar a cada recta AA&#8217; como la proyecci&oacute;n de las rectas AA&#8221; y por lo tanto, la envolvente de las rectas AA&#8217; ser&aacute; la proyecci&oacute;n
+de la envolvente de las rectas AA&#8221;; pero esa &uacute;ltima envolvente es un c&iacute;rculo y por tanto la curva buscada est&aacute; sobre un cono de base circular.<span>&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<div class="WPParaBoxWrapper" style="width: 729px; float: none"><span class="WPParaBox" style="border: none">
+<BODY BGCOLOR="#FFFFFF">
+<P ALIGN=center><APPLET CODE="CabriJava.class" WIDTH="800" HEIGHT="400" ALIGN=bottom ARCHIVE="CabriJava.jar">
+	<PARAM NAME=file VALUE="182Aanim.fig">
+	<PARAM NAME=lang VALUE="es">
+	<PARAM NAME=border VALUE="0">
+	<PARAM NAME=autocontrol VALUE="false">
+	<PARAM NAME=spring VALUE="point 19 size -8,0 ">
+</APPLET>
+
+</BODY>
+</span></div>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="8%" style="border-right: none; border-left: none; border-top: none; border-bottom: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+<td colspan="3" width="92%" style="border-left: none; border-right: none; border-top: none; border-bottom: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="8%" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">5.</span></span></p>
+</td>
+<td colspan="3" width="92%" style="border: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">GRAN TEOREMA DE PONCELET</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Teorema 5</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif"><span style="font-variant: small-caps">Cuando dos tri&aacute;ngulos est&aacute;n inscritos a una c&oacute;nica, los seis lados son tangentes a otra c&oacute;nica</span>.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; height: 3.16833in; border-left: none; border-right: none; border-top: none" valign="top">
+<div class="WPParaBoxWrapper" style="width: 729px; float: none"><span class="WPParaBox" style="border: none">
+<img src="barroso182/182-03.gif" alt="182-03.gif" width="727" height="277" border="0"></span></div>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Demostraci&oacute;n</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Sean ABC y DEF los dos tri&aacute;ngulos inscritos en la c&oacute;nica &#915;.  Los dos haces de rectas A*=(AB, AC, AE, AF) y B*=(DB, DC, DE, DF) tienen
+la misma raz&oacute;n doble (teorema 3). AB y AC cortan a FE respectivamente en B&#8217; y C&#8217;.DE y DF cortan a BC respectivamente en E&#8217; y F&#8217;. Las
+intersecciones del haz A* con EF son B&#8217;, C&#8217; E, F. Las intersecciones del haz B* con BC son B, C, E&#8217;, F&#8217;. Se produce as&iacute; la igualdad de razones
+dobles (B&#8217;, C&#8217; E, F) = (B, C, E&#8217;, F&#8217;); entonces hemos definido una homograf&iacute;a entre las rectas BC y EF.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Al haber definido la homograf&iacute;a anterior, hemos visto (teorema 4.2) que las rectas que unen puntos hom&oacute;logos BB&#8217;, CC&#8217;, EE&#8217;, FF&#8217; y las rectas
+dadas BC y EF son tangentes a una misma c&oacute;nica &#915;&#8217;.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Teorema 5.1 rec&iacute;proco</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">De una manera an&aacute;loga a la anterior podr&iacute;amos demostrar de forma rec&iacute;proca:</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-variant: small-caps; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Cuando dos tri&aacute;ngulos son circunscritos a una c&oacute;nica, sus seis v&eacute;rtices est&aacute;n sobre otra c&oacute;nica.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="8%" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">6.</span></span></p>
+</td>
+<td colspan="3" width="92%" style="border: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">TEOREMA DE LOS POLIGONOS CERRADOS DE PONCELET (CASO DEL TRIANGULO)</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<div class="WPParaBoxWrapper" style="width: 729px; float: none"><span class="WPParaBox" style="border: none">
+<BODY BGCOLOR="#FFFFFF">
+<P ALIGN=center><APPLET CODE="CabriJava.class" WIDTH="800" HEIGHT="350" ALIGN=bottom ARCHIVE="CabriJava.jar">
+	<PARAM NAME=file VALUE="182anim.fig">
+	<PARAM NAME=lang VALUE="es">
+	<PARAM NAME=border VALUE="0">
+	<PARAM NAME=bgcolor VALUE="#FFFFFF">
+	<PARAM NAME=autocontrol VALUE="fslse">
+	<PARAM NAME=spring VALUE="point 60 size -5,3 ">
+</APPLET></BODY></span></div>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Teorema 6</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Como corolario del teorema anterior  (teorema 5) o su rec&iacute;proco:</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-variant: small-caps; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Cuando un tri&aacute;ngulo ABC est&aacute; inscrito a una c&oacute;nica &#915; y circunscrito a una c&oacute;nica &#915;&#8217;, se puede construir una infinidad de
+tri&aacute;ngulos inscritos a &#915; y circunscritos a &#915;&#8217;.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Si de un punto A&#8217; de <span style="font-variant: small-caps">&#915;</span> se trazan dos tangentes a <span style="font-variant: small-caps">&#915;</span>&#8217; interceptar&aacute;n en <span style="font-variant: small-caps">&#915;</span> una cuerda B&#8217;C&#8217; que forma con esas tangentes el tri&aacute;ngulo A&#8217;B&#8217;C&#8217;.
+Los dos tri&aacute;ngulos ABC y A&#8217;B&#8217;C&#8217; tienen sus seis lados tangentes a una misma c&oacute;nica (teorema 5). Esta c&oacute;nica s&oacute;lo puede ser <span style="font-variant: small-caps">&#915;</span>&#8217;, tangente a
+los tres lados del primer tri&aacute;ngulo y a dos lados del segundo.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-left: none; border-right: none; border-top: none; border-bottom: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="8%" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">7.</span></span></p>
+</td>
+<td colspan="3" width="92%" style="border: 0.0133333in solid" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+<span style="font-weight: bold; color:#000000">NOTAS</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-bottom: none; border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Nota 1</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Hemos empezado viendo la definici&oacute;n cl&aacute;sica de la secci&oacute;n c&oacute;nica, por ser el cono de base circular lo que ayuda a concluir la demostraci&oacute;n
+del teorema 4.2 (rec&iacute;proco del teorema 4 y 4.1). Si hubi&eacute;ramos tenido necesidad de demostrar el teorema 3.2 (rec&iacute;proco del 3 y 3.1) hubi&eacute;ramos
+tambi&eacute;n usado el cono.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Nota 2</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">La demostraci&oacute;n del la propiedad b&aacute;sica de las c&oacute;nicas (teorema 2) ,a parte de la raz&oacute;n doble, s&oacute;lo usa la igualdad de &aacute;ngulos inscritos a un
+c&iacute;rculo cuando sus lados comprenden la misma cuerda.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Nota 3</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Las demostraciones de los teoremas directos fundamentales (3, 3.1, 4 y 4.1) son simples conclusiones del teorema 2.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Nota 4</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">M&aacute;s complicada es la demostraci&oacute;n de los rec&iacute;procos (4.2), en especial para la identificaci&oacute;n de la proyecci&oacute;n entre dos rectas y la visi&oacute;n del
+punto en el espacio no es directa y simple. Chasles, por ejemplo, tom&oacute; la idea del c&iacute;rculo de un alumno suyo.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Este teorema se encuentra demostrado en multitud de fuentes. Por citar s&oacute;lo dos:</span></p>
+</td>
+</tr>
+<tr>
+<td width="8%" style="border-right: none; border-bottom: none; border-left: none; border-top: none" valign="top"><p>
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">a</span></span></p>
+<br>
+<br>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #000000">b</span></span></p>
+</td>
+<td colspan="3" width="92%" style="border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Puig Adam, presenta una soluci&oacute;n m&aacute;s elegante. Identifica la homolog&iacute;a que hay entre el c&iacute;rculo usado y la curva buscada. Se aparta
+de la simplicidad perseguida en que hay que conocer adem&aacute;s el manejo de las homolog&iacute;as.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Sidler usa la polaridad para llegar a una demostraci&oacute;n realmente corta; pero entonces debemos ir m&aacute;s all&aacute; y debemos introducir
+la conjugaci&oacute;n y la polaridad...</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4" width="100%" style="border-left: none; border-right: none; border-top: none" valign="top">
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">En la actualidad, para demostrar los rec&iacute;procos, nos basar&iacute;amos en la simpleza de los teoremas directos, y por dualidad, los dar&iacute;amos como
+demostrados. Esta ser&iacute;a la demostraci&oacute;n m&aacute;s corta; pero deber&iacute;amos introducir el concepto de dualidad.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Visto lo anterior, estamos seguros que la demostraci&oacute;n usada, aunque laboriosa, usa ideas muy pr&oacute;ximas a la geometr&iacute;a cl&aacute;sica; pensemos que
+la raz&oacute;n doble ya la usaba Papus y seg&uacute;n &eacute;l dice tambi&eacute;n la usaba Apolonio. En cuanto al procedimiento, se obtiene de observar las figuras y
+sacar a flote las relaciones geom&eacute;tricas que nos son necesarias.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Nota 5</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">En cuanto al GRAN TEOREMA DE PONCELET ya se ha visto que sencillo aunque s&oacute;lo se conozcan las primeras propiedades fundamentales
+de las c&oacute;nicas.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Tambi&eacute;n se podr&iacute;a haber demostrado recurriendo al teorema de Pascal o de Brianchon; pero si introducimos la involuci&oacute;n y la conjugaci&oacute;n
+hay una demostraci&oacute;n a partir de este TEOREMA DE DESARGUES (dual del tercer teorema de Desargues):</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-variant: small-caps; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Las tangentes trazadas desde un punto D a las c&oacute;nicas de un haz tangencial son hom&oacute;logas en una involuci&oacute;n de D*. Las
+rectas dobles de dicha involuci&oacute;n son tangentes en D a las c&oacute;nicas del haz tangencial que pasan por este punto.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Sidler, dando por sabido el teorema y sin mencionarlo, resuelve el tema del tri&aacute;ngulo en  los pol&iacute;gonos cerrados de Poncelet de la siguiente
+forma:</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif"><i>&#8220;Sean ABC y A&#8217;&#8216;B&#8217;C&#8217; dos tri&aacute;ngulos circunscritos a una c&oacute;nica &#915;. Para establecer que los puntos A, B, C, D, A&#8217;, B&#8217;, C&#8217; pertenecen a una
+misma c&oacute;nica &#937;, demostramos que la involuci&oacute;n &#948; definida sobre BC por el cuadr&aacute;ngulo AA&#8217;B&#8217;C&#8217; intercambia la posici&oacute;n de los punto B
+y C. Basta para ello, verificar que la involuci&oacute;n &#948; es la &#8220;proyecci&oacute;n&#8221; sobre BC de la involuci&oacute;n &#948;* de A*, definida por el haz tangencial de
+c&oacute;nicas tangentes a las rectas A&#8217;C&#8217;, A&#8217;B&#8217;, B&#8217;C&#8217; y BC. La reciproca es la proposici&oacute;n dual. Como corolario si existe un tri&aacute;ngulo inscrito a
+una c&oacute;nica y circunscrito a otra c&oacute;nica, existe una infinidad de ellos.&#8221;</i></span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Nota 6</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">En el ap&eacute;ndice del problema 137 de las p&aacute;ginas de RICARDO BARROSO obtuvimos la c&oacute;nica por cinco puntos. En este caso, nos hace falta
+obtener la c&oacute;nica por cinco tangentes; pues el problema asegura la existencia de la c&oacute;nica inscrita y de seis de sus tangentes.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-weight: bold; color:#000000; font-size:10pt; font-family:Times New Roman, serif">Nota 7</span></p>
+<p align="justify">
+<span style="color: #000000; font-size:10pt; font-family:Times New Roman, serif">Es deuda a pagar en un futuro. Un m&eacute;todo de trazado de la c&oacute;nica dadas cinco tangentes y una generalizaci&oacute;n sencilla al caso del pol&iacute;gono
+de n lados. </span></p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+
+</html>

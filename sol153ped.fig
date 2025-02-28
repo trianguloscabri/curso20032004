@@ -1,0 +1,242 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Used macro
+
+Inscribed Circle, this inscribed circle
+Icon:
+0000600000000000
+0006060000000000
+0006006000000000
+0006000600000000
+0060033360000000
+0060300036000000
+0063000003600000
+0603000003060000
+0603000003006000
+0600300030000600
+6000033300000060
+6666666666666666
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+Help:
+"Select a triangle to construct the inscribed circle."
+Mth: 0
+CN:1, ON:6, FN:3, PO:5
+CT:
+triangle, CS 3, P, W, t, DS:1 1, GT:0, V, nSt
+Const:
+Biss, Mth:0, 0, 0, CN:3, VN:2, Const: 1 2 3
+Biss, Mth:0, 0, 0, CN:3, VN:2, Const: 2 3 1
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 6 5, R, W, t, DS:1 1, GT:1, V, nSt
+Perp, Mth:0, 0, 256, CN:2, VN:2, Const: 7 4
+Int, Mth:0, 1, 1, CN:2, VN:1, Const: 4 8, R, W, t, DS:1 1, GT:1, I, nSt
+Cir, Mth:1, 1, 0, CN:2, VN:2, Const: 7 9, Bl, W, t, DS:1 1, GT:0, V, nSt
+Mth: 1
+CN:3, ON:7, FN:3, PO:6
+CT:
+point, CS 0, R, W, t, DS:1 1, GT:1, V, nSt
+point, CS 0, R, W, t, DS:1 1, GT:1, V, nSt
+point, CS 0, R, W, t, DS:1 1, GT:1, V, nSt
+Const:
+Tr, Mth:0, 0, 0, CN:3, VN:4, Const: 3 1 2
+Biss, Mth:0, 0, 0, CN:3, VN:2, Const: 3 1 2
+Biss, Mth:0, 0, 0, CN:3, VN:2, Const: 1 2 3
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 6 5, R, W, t, DS:1 1, GT:1, V, nSt
+Perp, Mth:0, 0, 256, CN:2, VN:2, Const: 7 4
+Int, Mth:0, 1, 1, CN:2, VN:1, Const: 4 8, R, W, t, DS:1 1, GT:1, I, nSt
+Cir, Mth:1, 1, 0, CN:2, VN:2, Const: 7 9, Bl, W, t, DS:1 1, GT:0, V, nSt
+
+Figure description:
+
+Window center x: -11.191875 y: 5.97958333333333 Window size x: 26.6435416666667 y: 16.430625
+
+1: Pt, 0, CN:0, VN:1
+Bl, W, tT, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Pt, 0, CN:0, VN:1
+Bl, W, tT, DS:1 1, GT:1, I, nSt
+Val: -8.67833333333333 3.46604166666667
+
+4: Cir, 0, CN:1, VN:2
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 3, Val: 5.22945461109606
+
+"A", NP: -127, -125, NS: 10, 18
+5: Pt/, 0, CN:1, VN:3
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -3.44887872223727 3.46604166666667
+p: 0, System, S: 0 C: 6 Fa: 0
+
+6: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 5
+
+"C", NP: -407, -335, NS: 11, 18
+7: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -10.6112432569534 8.32516244687834
+p: 0, System, S: 0 C: 6 Fa: 0
+
+"B", NP: -543, -127, NS: 12, 18
+8: Int, 0, CN:3, VN:1
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 4 5
+p: 0, System, S: 0 C: 6 Fa: 0
+
+9: Seg, 0, CN:2, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 8
+
+10: Seg, 0, CN:2, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 8 7
+
+11: Seg, 0, CN:2, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 5
+
+Ma: Inscribed Circle, Const: 8 i: 0 7 i: 0 5 i: 0
+15: Ma R, F No1, VN:1
+B, W, t, DS:1 1, GT:1, V, nSt
+
+17: Ma R, F No2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+
+18: Ma R, F No3, VN:2
+B, W, t, DS:1 1, GT:0, V, nSt
+
+"T", NP: -376, -126, NS: 10, 18
+19: Int, 0, CN:2, VN:1
+B, W, tT, DS:1 1, GT:2, V, nSt
+Const: 9 18
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"b", NP: -264, -242, NS: 10, 18
+20: Mid, 0, CN:1, VN:1
+Bl, W, tT, DS:1 1, GT:0, V, nSt
+Const: 11
+p: 0, System, S: 0 C: 6 Fa: 0
+
+"a", NP: -474, -238, NS: 10, 18
+21: Mid, 0, CN:1, VN:1
+Bl, W, tT, DS:1 1, GT:0, V, nSt
+Const: 10
+p: 0, System, S: 0 C: 6 Fa: 0
+
+"(s-a)", NP: -269, -127, NS: 30, 18
+22: Mid, 0, CN:2, VN:1
+B, W, tT, DS:1 1, GT:0, V, nSt
+Const: 19 5
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"(s-b)", NP: -468, -129, NS: 30, 18
+23: Mid, 0, CN:2, VN:1
+B, W, tT, DS:1 1, GT:0, V, nSt
+Const: 8 19
+p: 0, System, S: 0 C: 15 Fa: 0
+
+24: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 19 9
+
+"S", NP: -375, -345, NS: 11, 18
+25: Int, 0, CN:2, VN:1
+B, W, tT, DS:1 1, GT:1, V, nSt
+Const: 24 4
+p: 0, System, S: 0 C: 15 Fa: 0
+
+26: Seg, 0, CN:2, VN:0
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 19 25
+
+27: Text, 0, CN:0, VN:1
+B, W, BTh:4, DS:1 1, GT:0, V, nSt
+Val: -898 -308 0, nA, nP, TP: -23.7595833333333, 8.14916666666667,TS: 8.54604166666667, -6.82625
+"1 calculamos el producto de los segmentos que dice el enunciado. Perpendicular en la unión T e intersección S con el círculo de diámetro AB
+
+(s-a)(s-b)=BT·TA=TS·TS
+
+2 calculamos el área (a·b)/2. Extendemos b en a/2 y obtenemos aD. Perpendicular en la unión C e intersección E con el círculo de diámetro AD
+
+b·a/2=AC·CD=CE·CE
+
+3 comprobamos que TS=CE. Para ello trasladamos ST paralelamente a sí mismo hasta que S coincide con C y T se convierte en T'. T' Está en el círculo de centro C y radio CE. "
+p: 0, System, S: 0 C: 15 Fa: 0
+
+28: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 7
+
+29: Cir, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 21
+
+"D", NP: -509, -402, NS: 12, 18
+30: Int, 256, CN:2, VN:1
+B, W, tT, DS:1 1, GT:1, V, nSt
+Const: 28 29
+p: 0, System, S: 0 C: 15 Fa: 0
+
+31: Mid, 0, CN:2, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Const: 30 5
+
+32: Cir, 0, CN:2, VN:2
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 31 5
+
+33: Seg, 0, CN:2, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 30
+
+34: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 7 8
+
+"E", NP: -498, -168, NS: 11, 18
+35: Int, 256, CN:2, VN:1
+B, W, tT, DS:1 1, GT:1, V, nSt
+Const: 34 32
+p: 0, System, S: 0 C: 15 Fa: 0
+
+36: Seg, 0, CN:2, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 35
+
+37: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 7 26
+
+38: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 25 7
+
+39: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 19 38
+
+"T'", NP: -400, -121, NS: 14, 18
+40: Int, 0, CN:2, VN:1
+B, W, tT, DS:1 1, GT:1, V, nSt
+Const: 37 39
+p: 0, System, S: 0 C: 15 Fa: 0
+
+41: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 19 40
+
+42: Seg, 0, CN:2, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 40
+
+43: Cir, 0, CN:2, VN:2
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 35
+

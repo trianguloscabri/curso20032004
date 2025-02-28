@@ -1,0 +1,63 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 0 y: 0 Window size x: 19.9495833333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: 67, -131, NS: 16, 25
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 1.79916666666667 2.83104166666667
+p: 0, Arial Black, S: 16 C: 6 Fa: 1
+
+"B", NP: -176, 83, NS: 16, 25
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.1275 -2.19604166666667
+p: 0, Arial Black, S: 16 C: 6 Fa: 1
+
+"C", NP: 120, 78, NS: 16, 25
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 2.80458333333333 -2.19604166666667
+p: 0, Arial Black, S: 16 C: 6 Fa: 1
+
+6: Tr, 0, CN:3, VN:0
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 3 4 5
+
+"B'", NP: 92, -17, NS: 21, 25
+7: Mid, 2, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6
+p: 0, Arial Black, S: 16 C: 6 Fa: 1
+
+8: Tr, 0, CN:3, VN:0
+V, P, tT, DS:1 1, GT:1, V, nSt
+Const: 4 3 7
+
+9: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -354 -227 0, nA, nP, TP: -9.36625, 6.00604166666667,TS: 7.3025, -0.899583333333333
+"Problema 132.
+Solución de F. Damián Aranda Ballesteros"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+10: Text, 0, CN:0, VN:1
+R, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 178 -52 0, nA, nP, TP: 4.70958333333333, 1.37583333333333,TS: 2.03729166666667, -0.661458333333333
+"AB'=B'C"
+p: 0, Arial Black, S: 16 C: 3 Fa: 1
+
+11: Text, 0, CN:0, VN:1
+R, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 130 -72 0, nA, nP, TP: 3.43958333333333, 1.905,TS: 4.92125, -0.661458333333333
+"S(ABC) = 2*S(ABB')"
+p: 0, Arial Black, S: 16 C: 3 Fa: 1
+

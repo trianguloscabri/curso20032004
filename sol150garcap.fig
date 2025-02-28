@@ -1,0 +1,173 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 2.936875 y: -2.64583333333333 Window size x: 26.6435416666667 y: 16.430625
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -305 -192 0, nA, nP, TP: -8.06979166666667, 5.08,TS: 17.5154166666667, -3.43958333333333
+"Problema 150.-
+
+Sea el triángulo ABC,donde AD y CE son bisectrices interiores.En la prolongación de ED se toma el punto P, desde el cual trazamos las perpendiculares PJ,PK y PL sobre AB, BC y AC respectivamente. Probar que: PK=PJ+PL. 
+
+Propuesta de Juan Carlos Salazar, Profesor de Geometría del Equipo Olímpico de Venezuela.(Puerto Ordaz). "
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"A", NP: -133, -36, NS: 10, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -3.65125 0.582083333333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B", NP: -184, 149, NS: 12, 18
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.49791666666667 -3.86291666666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: 228, 149, NS: 11, 18
+6: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 6.13833333333333 -3.86291666666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+7: Tr, 0, CN:3, VN:0
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 4 5 6
+
+8: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 6 5
+
+9: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 4 6
+
+"D", NP: -61, 148, NS: 12, 18
+10: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 9
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"E", NP: -168, 63, NS: 11, 18
+11: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 8
+p: 0, System, S: 0 C: 3 Fa: 0
+
+12: Line, 0, CN:2, VN:2
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 11 10
+
+"P", NP: -225, 19, NS: 11, 18
+13: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 12, Val: -5.55625 -0.45425949045679
+p: 0, System, S: 0 C: 3 Fa: 0
+
+14: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 13 7
+
+15: Perp, 512, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 13 7
+
+16: Perp, 256, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 13 7
+
+17: Line, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 6
+
+18: Line, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 5
+
+19: Line, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 4
+
+"J", NP: -145, 31, NS: 9, 18
+20: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 14 19
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"K", NP: -225, 148, NS: 11, 18
+21: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 16 18
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"L", NP: -183, -38, NS: 10, 18
+22: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 15 17
+p: 0, System, S: 0 C: 3 Fa: 0
+
+23: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 13 21, Val: 185 -62 128.831, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+24: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 13 21 23, Val: 159 -62 0, A, nP, TP: 4.206875, 1.64041666666667,TS: 2.2225, -0.47625
+"PK="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+25: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 13 22, Val: 186 -14 65.4317, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+26: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 13 22 25, Val: 161 -14 0, A, nP, TP: 4.25979166666667, 0.370416666666667,TS: 2.19604166666667, -0.47625
+"PL="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+27: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 13 20, Val: 185 -38 63.3994, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+28: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 13 20 27, Val: 161 -38 0, A, nP, TP: 4.25979166666667, 1.00541666666667,TS: 2.16958333333333, -0.47625
+"PJ="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+29: Formula, 1, CN:3, VN:1
+B, W, NbD:2, nFD, cm, GT:0, V, nSt
+Const: 23 27 25, Val: 235 12 0, A, P, TP: 6.21770833333333, -0.3175,TS: 1.48166666666667, -0.423333333333333
+a - b - c
+p: 0, System, S: 0 C: 15 Fa: 0
+
+30: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 29, Val: 161 12 0, nA, nP, TP: 4.25979166666667, -0.3175,TS: 3.4925, -0.47625
+"Resultado: "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+31: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 13 22
+
+32: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 13 20
+
+33: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 13 21
+

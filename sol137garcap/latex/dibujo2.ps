@@ -1,0 +1,133 @@
+%!
+
+/u 50 def
+/v 100 def
+/c 180 def
+/g1 c u add 3 div def
+/g2 v 3 div def
+
+/punto-en-seg {
+/dict-pens 5 dict def
+dict-pens begin
+/t exch def
+/y2 exch def
+/x2 exch def
+/y1 exch def
+/x1 exch def
+1 t sub x1 mul t x2 mul add
+1 t sub y1 mul t y2 mul add
+end
+} def
+
+/punto { 
+/dict-punto 2 dict def
+dict-punto begin
+/py exch def
+/px exch def
+px py 1.5 0 360 arc 
+gsave
+1 setgray
+fill
+grestore
+stroke
+end
+} def
+
+/hiperbola {
+/yy exch def
+u v div yy mul c v mul 8 div yy div add
+yy
+} def
+
+
+
+100 100 translate
+
+0 1 1 setrgbcolor
+g1 g2 moveto
+g1 g2 u v 1.5 punto-en-seg lineto
+g1 g2 u 2 div v 2 div 1.5 punto-en-seg lineto
+g1 g2 lineto
+fill
+
+g1 g2 moveto
+g1 g2 c 0 1.5 punto-en-seg lineto
+g1 g2 c 2 div 0 1.5 punto-en-seg lineto
+g1 g2 lineto
+fill
+
+1 1 0 setrgbcolor
+/y v 4 div def
+y hiperbola moveto
+25 { 
+y 1 add /y exch def
+y hiperbola lineto} repeat
+g1 g2 lineto
+v 4 div hiperbola lineto
+fill
+
+
+
+
+0 setgray
+
+
+0.5 setlinewidth
+/y v 2 div def
+y hiperbola moveto
+v 20 add {
+y 1 add /y exch def
+y hiperbola lineto} repeat
+stroke
+
+/y v 4 div def
+y hiperbola moveto
+15 { 
+y 1 sub /y exch def
+y hiperbola lineto} repeat
+stroke
+
+/y v 4 div def
+y hiperbola moveto
+25 { 
+y 1 add /y exch def
+y hiperbola lineto} repeat
+g1 g2 lineto
+v 4 div hiperbola lineto
+stroke
+
+1 setlinewidth
+0 0 moveto
+u v lineto
+c 0 lineto
+0 0 lineto
+u v moveto
+c 2 div 0 lineto
+c 0 moveto 
+u 2 div v 2 div lineto
+stroke
+
+0.5 setlinewidth
+v 2 div hiperbola punto
+v 4 div hiperbola punto
+g1 g2 punto
+2 2 sqrt add 4 div v mul hiperbola punto
+2 2 sqrt sub 4 div v mul hiperbola punto
+c 2 div 0 punto
+u 2 div v 2 div punto
+
+
+/Times-Italic findfont
+12 scalefont
+setfont
+
+0 0 moveto -4 -11 rmoveto (B) show
+u v moveto -4   3 rmoveto (A) show
+c 0 moveto -4 -11 rmoveto (C) show
+v 2 div hiperbola moveto 1 2 rmoveto (U) show
+v 4 div hiperbola moveto 1 2 rmoveto (V) show
+g1 g2 moveto -11 -11 rmoveto (G) show
+c 2 div 0 moveto -4 -11 rmoveto (M) show
+u 2 div v 2 div moveto -10 -2 rmoveto (N) show
+2 2 sqrt add 4 div v mul hiperbola moveto 3 1 rmoveto (S) show 
+2 2 sqrt sub 4 div v mul hiperbola moveto 1 2 rmoveto (T) show

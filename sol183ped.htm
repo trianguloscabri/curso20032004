@@ -1,0 +1,646 @@
+<html>
+
+<head>
+<meta name="generator" content="Microsoft FrontPage 5.0">
+<meta http-equiv="content-Type" content="text/html; charset=utf-8">
+
+<style>
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0pt;
+	border-color: black;
+	empty-cells: show;
+	font-family: "Times New Roman", serif;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal
+}
+
+td
+{
+	border-color: black
+}
+
+p
+{
+	margin-top: 0px;
+	margin-bottom: 1px
+}
+
+span.WPParaBox
+{
+	padding: 0px;
+	width: 100%;
+	margin: 0px;
+	display: block
+}
+
+div.WPParaBoxWrapper
+{
+	padding: 0px;
+	float: left
+}
+
+body
+{
+	font-family: "Times New Roman", serif;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal
+}
+</style>
+
+</head>
+
+<body>
+<div align="center">
+<table width="754" cellpadding="6" cellspacing="0">
+<tr>
+<td colspan="2" width="740" style="background-color: #7d7dff; border: 0.0133333in solid" valign="top"><p style="text-align: right"><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"></span></span><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="color: #ffffff">Propuesto por Saturnino Campo Ruiz, profesor del IES Fray Luis de Le&oacute;n, de Salamanca </span></span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="color: #ffffff">Problema 183 </span></span></span></p>
+<br>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #ffffff">Dado un tri&aacute;ngulo ABC y una transversal t, se toma un punto cualquiera de ella V y se trazan rectas VA, VB y VC. Se toman despu&eacute;s rectas
+VA&#39;, VB' y VC' sim&eacute;tricas de las primeras respecto de la transversal t, siendo A', B' y C' los puntos de intersecci&oacute;n con los lados BC, CA y
+AB del tri&aacute;ngulo. </span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="color: #ffffff">Demostrar que A', B' y C' est&aacute;n alineados. </span></span></span></p>
+<br>
+<p style="text-align: right"><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="color: #ffffff">Campo, S. (2004): Comunicaci&oacute;n personal</span></span></span></p>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="color: #ffff00">Soluci&oacute;n de Jos&eacute; Mar&iacute;a Pedret, Ingeniero Naval. Esplugues de Llobregat (Barcelona)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="76" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">0.</span></span></span></p>
+</td>
+<td width="651" style="border: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">INTRODUCCION</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="font-weight: bold">Procedimiento general.</span></span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Los problemas de tri&aacute;ngulos relacionados con rectas  </span>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">
+(transversales), </span>
+<span style="font-size: 10pt; font-family:Times New Roman, serif">que no pasan por sus v&eacute;rtices, y los problemas de tri&aacute;ngulos relacionados
+con puntos, que no est&aacute;n sobre sus lados, presentan multitud de aspectos interesantes.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Si en relaci&oacute;n con este tipo de problemas, debemos establecer 
+una concurrencia de rectas o un alineamiento de puntos, el tratamiento más 
+general es usar el SEGUNDO TEOREMA DE DESARGUES, adaptar este teorema en lugar de&nbsp; 
+a un cuadr&aacute;ngulo a un tri&aacute;ngulo y ser capaces de escribir sus teoremas duales.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Una vez hecho lo anterior, se particulariza a las condiciones del enunciado propuesto y se establece el resultado.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">Conocimientos supuestos.</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td width="78" align="center" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">* </span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">*</span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">*</span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">*</span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">*</span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">*</span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">*</span></span></p>
+</td>
+<td width="652" valign="top"><p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Referencia proyectiva,</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">recta proyectiva y haz de rectas,</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">raz&oacute;n doble de cuatro puntos alineados y de cuatro rectas de un haz,</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">homograf&iacute;a entre rectas y&nbsp; 
+entre haces,</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">puntos fijos 
+de una homografía de una recta sobre sí misma y rayos dobles de una homografía 
+de un haz sobre sí mismo,</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">idea pr&aacute;ctica de la dualidad en dimensi&oacute;n 1,</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">definici&oacute;n de un cuadr&aacute;ngulo y un cuadril&aacute;tero.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Como la gracia de 
+este teorema de Desargues est&aacute; en las involuciones, estableceremos lo necesario 
+de ellas durante el desarrollo.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="76" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">1.</span></span></span></p>
+</td>
+<td width="651" style="border: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">LAS INVOLUCIONES</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="font-weight: bold">Definici&oacute;n</span></span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Se dice que una homograf&iacute;a &#963; : r &#8594; r de una recta proyectiva sobre s&iacute; misma es una INVOLUCION si es distinta de la identidad y si (&#963;  </span>
+<font face="Times New Roman"><span style="font-size: 10pt">◦</span></font><span style="font-size: 10pt; font-family:Times New Roman, serif"> &#963;)
+es la aplicaci&oacute;n id&eacute;ntica de r (es decir  &#963;<sup>-1</sup> = &#963;).</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Si  &#963; es una 
+involuci&oacute;n, entonces P&#39; =  &#963;(P) y P =  &#963;(P&#39;). Se dice que la involuci&oacute;n intercambia los puntos P y P&#39; o que P y P&#39; son puntos
+hom&oacute;logos en la involuci&oacute;n.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="font-weight: bold">Proposici&oacute;n b&aacute;sica</span></span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><i>Una homograf&iacute;a &#963; : r &#8594; r de una recta proyectiva sobre s&iacute; misma es una INVOLUCION si y s&oacute;lo si &#8707; P &#8712; r &#8725; &#963;(P) &#8800; P y &#963;(&#963;(P)) = P.</i></span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="font-weight: bold">Demostraci&oacute;n de la proposici&oacute;n b&aacute;sica</span></span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">La parte directa es la propia definici&oacute;n.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Para la rec&iacute;proca tomemos P &#8800; P&#39; con P &#8712; r, P&#39; &#8712; r &#8725; P&#39; =  &#963;(P), P =  &#963;(P&#39;). &#8704; Q &#8712; r &#8725; Q &#8800; P, Q &#8800; P&#39;, si ponemos Q&#39; = &#963;(Q) basta demostrar
+que Q = &#963;(Q&#39;). Atendiendo a la conservaci&oacute;n de las razones doble en la homograf&iacute;a, tenemos:</span></p>
+<p align="justify">
+<br>
+</p>
+<p style="text-align: center">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">(P, P&#39;, <span style="color: #ff0000">Q</span>, Q&#39;) = (&#963;(P), &#963;(P&#39;), &#963;(Q), &#963;(Q&#39;)) = (P&#39;, P, Q&#39;, &#963;(Q&#39;)) =  (P, P&#39;, <span style="color: #ff0000">&#963;(Q&#39;)</span>, Q&#39;) &#8658; &#963;(Q&#39;) = Q.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="font-weight: bold">Teorema 1</span></span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><i>Sean A, B &#8712; r &#8725; A &#8800; B. Entonces la involuci&oacute;n &#963; : r &#8594; r, que admite a A, B como puntos fijos, es &uacute;nica. &#8704; P &#8712; r &#8725; P &#8800; A, P &#8800; B, se tiene:</i></span></p>
+<p align="justify">
+<br>
+</p>
+<p style="text-align: center">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><i>(A, B, P, &#963;(P)) = -1.</i></span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><i>Rec&iacute;procamente, esta relaci&oacute;n define una involuci&oacute;n de puntos fijos A y B.</i></span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="font-weight: bold">Demostraci&oacute;n del teorema 1</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="78" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">Existencia:</span></span></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">Unicidad:</span></span></p>
+</td>
+<td width="652" valign="top"><p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Sea C ∈ r ∕ C 
+≠ A, C ≠ B y sea C&#39; ∈ r ∕ (A, B, C, C&#39;) = -1. La homografía σ : r → r definida 
+por σ(A) = A , σ(B) = B&nbsp; y&nbsp;&nbsp; σ(C) = C&#39; es una involución. Como σ 
+conserva la razón doble ρ, escribimos:</span></p>
+<p align="justify">
+<br>
+</p>
+<p style="text-align: center">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="color: #ffffff">1/</span>&#961; = (A, B, <span style="color: #ff0000">C</span>, C&#39;) = (&#963;(A), &#963;(B), &#963;(C), &#963;(C&#39;)) = (A, B, C&#39;, &#963;(C&#39;)) = -1<span style="color: #ffffff">/-1 = -1</span>,</span></p>
+<p style="text-align: center">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">1/&#961; = (A, B, C&#39;, C) = (&#963;(A), &#963;(B), &#963;(C&#39;), &#963;(C)) = (A, B, <span style="color: #ff0000">&#963;(C&#39;)</span>, C&#39;) = <span style="color: #ffffff">-</span>1/-1 = -1,</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Entonces (A, B, <span style="color: #ff0000">C</span>, C&#39;) = -1 = (A, B, <span style="color: #ff0000">&#963;(C&#39;)</span>, C&#39;) &#8658; &#963;(C&#39;) = C</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">&#8704; P &#8712; r &#8725; P &#8800; A, P &#8800; B, tenemos:</span></p>
+<p align="justify">
+<br>
+</p>
+<p style="text-align: center">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">&#961; = (A, B, P, &#963;(P)) = (&#963;(A), &#963;(B), &#963;(P), &#963;(&#963;(P))) = (A, B, &#963;(P), P) = 1/&#961; &#8658; &#961;<sup>2</sup> = 1;</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">pero &#961; &#8800;1 &#8658; &#961; = -1 y por tanto &#963;(P) es &uacute;nico.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">Teorema 2</span></span></span></p>
+<br>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><i>Sean A &#8712; r, A&#39;&#8712; r, B &#8712; r, B&#39;&#8712; r &#8725; {A,A&#39;} &#8745; {B,B&#39;} = &Oslash;, &#8707; &#963; : r &#8594; r (&uacute;nica) &#8725; &#963;(A) = A&#39; y &#963;(B) = B&#39;.</i></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">Demostraci&oacute;n del teorema 2</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td width="78" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">Caso A &#8800; A&#39;:</span></span></p>
+<br>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">Caso B &#8800; B&#39;:</span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">A = A&#39;, B = B&#39;:</span></span></p>
+</td>
+<td width="652" valign="top"><p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Entonces A, A&#39;, B forman una referencia proyectiva de la recta r. Existe entonces una &uacute;nica homograf&iacute;a &#963; : r &#8594; r definida
+por &#963;(A) = A&#39;, &#963;(B) = B&#39;, &#963;(A&#39;) = A. Esta homograf&iacute;a, gracias a la <span style="font-weight: bold">proposici&oacute;n b&aacute;sica</span>, es una involuci&oacute;n.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">An&aacute;logo al caso A &#8800; A&#39;.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Nada que demostrar, pues es el caso de dos puntos fijos (<span style="font-weight: bold">teorema 1)</span>.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="76" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">2.</span></span></span></p>
+</td>
+<td width="651" style="border: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">USO DE LA DUALIDAD</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">Receta en el caso de dimensi&oacute;n 1</span></span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">Podemos escribir las formas duales de los enunciados precedentes sin m&aacute;s que hacer los siguientes cambios:</span></span></p>
+<br>
+<p style="text-align: center"><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">punto por recta</span></span></p>
+<br>
+<p style="text-align: center"><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">  recta por punto</span></span></p>
+<br>
+<p style="text-align: center"><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">     puntos alineados por rectas concurrentes</span></span></p>
+<br>
+<p style="text-align: center"><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">     rectas concurrentes por puntos alineados        </span></span></p>
+<br>
+<p style="text-align: center"><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">cuadr&aacute;ngulo por cuadril&aacute;tero</span></span></p>
+<br>
+<p style="text-align: center"><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">cuadril&aacute;tero por cuadr&aacute;ngulo</span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">Como muestra podemos ver la &#8220;dualizaci&oacute;n&#8221; del teorema 1.</span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">Teorema 3. (Dual del teorema 1)</span></span></span></p>
+<br>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><i>Sean a, b dos rectas concurrentes en un punto R. Entonces la involuci&oacute;n del rectas &#963;* : R* &#8594; R*, que admite a a, b como rectas fijas, es &uacute;nica.
+&#8704; r &#8712; R* &#8725; r &#8800; a, r &#8800; b, se tiene:</i></span></p>
+<br>
+<p style="text-align: center"><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><i>(a, b, r, &#963;(r)) = -1.</i></span></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">Ventajas del dual</span></span></span></p>
+<br>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Podemos usar lo establecido y demostrado para puntos de rectas proyectivas con las rectas de un haz. Basta s&oacute;lo con &#8220;dualizar&#8221; los enunciados.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="76" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">3.</span></span></span></p>
+</td>
+<td width="651" style="border: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">EL SEGUNDO TEOREMA DE DESARGUES</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Demostraremos el segundo teorema de Desargues con el uso de esta proposici&oacute;n previa:</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="font-weight: bold">Teorema 4. (Previo al Segundo teorema de Desargues)</span></span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><i>Sean A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub> 
+y A&#39;<sub>1</sub>, A&#39;<sub>2</sub>, A&#39;<sub>3</sub> dos referencias de la recta proyectiva. Una homograf&iacute;a &#963; : r &#8594; r definida por &#963;(A<sub>i</sub>) 
+= A&#39;<sub>i</sub> es una involuci&oacute;n si
+y s&oacute;lo si se tiene la igualdad (A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, 
+A&#39;<sub>i</sub>) = (A&#39;<sub>1</sub>, A&#39;<sub>2</sub>, A&#39;<sub>3</sub>, A<sub>i</sub>) para al menos un &iacute;ndice i &#8712; {1, 2, 3}.</i></span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="font-weight: bold">Demostraci&oacute;n del teorema 4. (Jean-Claude Sidler)</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="78" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, 
+A&#39;<sub>i</sub></span></span></p>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif">distintos:</span></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>&nbsp;</p>
+<p><span style="font-size: 10pt; font-family:Times New Roman, serif">A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, 
+A&#39;<sub>i</sub></span></p>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">no distintos:</span></span></p>
+</td>
+<td width="652" valign="top">
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Si la homograf&iacute;a es una involuci&oacute;n, las tres razones dobles son iguales. Rec&iacute;procamente si tenemos:</span></p>
+<p align="justify">
+<br>
+</p>
+<p style="text-align: center">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">&#961; = (A<sub>1</sub>, A<sub>2</sub>, A<sub>3</sub>, 
+A&#39;<sub>i</sub>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+= (A&#39;<sub>1</sub>, A&#39;<sub>2</sub>, A&#39;<sub>3</sub>, <span style="color: #ff0000">A<sub>i</sub></span>)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       </span></p>
+<p style="text-align: center">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">&#961; = (&#963;(A<sub>1</sub>), &#963;(A<sub>2</sub>), &#963;(A<sub>3</sub>), 
+σ(A&#39;<sub>i</sub>)) = (A&#39;<sub>1</sub>, A&#39;<sub>2</sub>, A&#39;<sub>3</sub>, <span style="color: #ff0000">
+σ(A&#39;<sub>i</sub>)</span>).</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">De donde se 
+deduce que σ(A&#39;<sub>i</sub>) = A<sub>i</sub>.</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+&nbsp;</p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Se trata directamente.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">Teorema 5. (Segundo teorema de Desargues).</span></span></span></p>
+<br>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><i>Sea un cuadr&aacute;ngulo ABCD y sea r una recta que no pasa por ninguno de sus v&eacute;rtices. Los lados opuestos del cuadr&aacute;ngulo cortan a r en puntos
+que se corresponden en una misma involuci&oacute;n.</i></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">Demostraci&oacute;n del teorema 5</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top">
+<div class="WPParaBoxWrapper" style="width: 727px; float: none"><span class="WPParaBox" style="border: none">
+<img src="barroso183/183-01.gif" alt="183-01.gif" width="725" height="325" border="0"></span></div>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Los tres pares de lados opuestos son (AB, CD), (BC, DA), (AC, DB).</span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Para demostrar que AB &#8745; r = P, CD &#8745; r = P&#39;, BC &#8745; r = Q, DA &#8745; r = Q&#39;, AC &#8745; r = R, DB &#8745; r = R&#39; son hom&oacute;logos en una misma involuci&oacute;n,
+utilizaremos el teorema anterior (<span style="font-weight: bold">teorema 4)</span>. Nos bastar&aacute; demostrar:</span></p>
+<br>
+<p style="text-align: center"><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">(P, Q, R, R&#39;) = (P&#39;, Q&#39;, R&#39;, R).</span></span></p>
+<br>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Para ello proyectamos r sobre AC con centro de proyecci&oacute;n en B y luego AC sobre r con centro de proyecci&oacute;n en D. Como las proyecciones
+conservan la raz&oacute;n doble, basta observar la figura para escribir:</span></p>
+<br>
+<p style="text-align: center"><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">(P, Q, R, R&#39;) = (BA, BC, BD, BR&#39;) = (DA, DC, DB, DR&#39;) = (Q&#39;, P&#39;, R, R&#39;)</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="76" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">4.</span></span></span></p>
+</td>
+<td width="651" style="border: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">ENUNCIADO DEL SEGUNDO TEOREMA DE DESARGUES ADAPTADO A TRIANGULOS</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">Teorema 6. (Segundo teorema de Desargues adaptado para tri&aacute;ngulos).</span></span></span></p>
+<br>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><i>Un tri&aacute;ngulo ABC es cortado por una recta s que no pasa por ninguno de sus v&eacute;rtices seg&uacute;n BC &#8745; s = P, CA &#8745; s = Q, AB &#8745; s = R. Tres rectas
+p, q, r pasando respectivamente por A, B, C cortan a s en P&#39;, Q&#39;, R&#39;. En estas condiciones, las rectas p, q, r son concurrentes si y s&oacute;lo si los
+puntos P y P&#39;, Q y Q&#39;, R y R&#39; son hom&oacute;logos en una misma involuci&oacute;n.</i></span></p>
+<br>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">Demostraci&oacute;n del teorema 6 para tri&aacute;ngulos.</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top">
+<div class="WPParaBoxWrapper" style="width: 727px; float: none"><span class="WPParaBox" style="border: none">
+<img src="barroso183/183-02.gif" alt="183-02.gif" width="725" height="358" border="0"></span></div>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif">Si suponemos que p, q, r concurren en D, basta aplicar el segundo teorema de Desargues (<span style="font-weight: bold">teorema 5</span>) al cuadr&aacute;ngulo ABCD. Rec&iacute;procamente
+si  los puntos P y P&#39;, Q y Q&#39;, R y R&#39; son hom&oacute;logos en una misma involuci&oacute;n &#963; : s &#8594; s las rectas  p, q, r son concurrentes. En efecto, sea el punto
+D = p &#8745; q; sea R&quot; = CD &#8745; s. Despu&eacute;s de la parte directa del teorema, los pares de puntos (P, P&#39;), (Q, Q&#39;), (R, R&quot;) son hom&oacute;logos en una misma
+involuci&oacute;n; pero esta involuci&oacute;n no es otra que &#963;, pues hemos visto en el <span style="font-weight: bold">teorema 2</span> que una involuci&oacute;n queda definida por dos pares de puntos
+hom&oacute;logos. Tenemos entonces R&quot; = R&#39; = &#963;(R) y la recta DC coincide con r.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="76" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">5.</span></span></span></p>
+</td>
+<td width="651" style="border: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">ENUNCIADOS DUALES DEL SEGUNDO TEOREMA DE DESARGUES</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">Teorema 7. (Dual del segundo teorema de Desargues para el cuadril&aacute;tero. Dual del teorema 5)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top">
+<div class="WPParaBoxWrapper" style="width: 677px; float: none"><span class="WPParaBox" style="border: none">
+<img src="barroso183/183-03.gif" alt="183-03.gif" width="675" height="327" border="0"></span></div>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><i>Sea abcd un cuadril&aacute;tero completo y D no situado sobre los lados del cuadril&aacute;tero. Los tres pares de rectas que unen D a los tres pares de
+v&eacute;rtices opuestos son hom&oacute;logas en una misma involuci&oacute;n del haz de rectas D*.</i></span></p>
+<p align="justify">
+<br>
+</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif"><span style="font-weight: bold">Teorema 8. (Dual del segundo teorema de Desargues para el tri&aacute;ngulo. Dual del teorema 6)</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top">
+<div class="WPParaBoxWrapper" style="width: 620px; float: none"><span class="WPParaBox" style="border: none">
+<img src="barroso183/183-04.gif" alt="183-04.gif" width="618" height="327" border="0"></span></div>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif; font-style:italic">Sea un tri&aacute;ngulo ABC y un punto D no situado sobre los lados a = BC, b = AC, c = AB de dicho tri&aacute;ngulo. Sean l. 
+m. n tres rectas de D* que
+cortan a a, b, c en L, M, N. Los puntos L, M, N est&aacute;n alineados si y s&oacute;lo si la homograf&iacute;a de &#963;* : D* &#8594; D* definida por &#963;(l) = DA, &#963;(m) = DB,
+&#963;(n) = DC es una involuci&oacute;n.</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td width="76" style="border-left: 0.0133333in solid; border-top: 0.0133333in solid; border-bottom: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">6.</span></span></span></p>
+</td>
+<td width="651" style="border: 0.0133333in solid" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt"><span style="font-weight: bold">CONCLUSION (RESOLUCION DEL ENUNCIADO INICIAL)</span></span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top">
+<div class="WPParaBoxWrapper" style="width: 727px; float: none"><span class="WPParaBox" style="border: none">
+<img src="barroso183/183-05.gif" alt="183-05.gif" width="725" height="424" border="0"></span></div>
+<p><span style="font-family: 'Times New Roman', serif"><span style="font-size: 10pt">&#160;</span></span></p>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="742" valign="top"><p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif; font-style:italic">Para demostrar el enunciado basta tomar D = V, L = A&#39;, M = B&#39;, N = C&#39;y aplicar el dual del segundo teorema de Desargues para el tri&aacute;ngulo.
+Considerando la involuci&oacute;n (simetr&iacute;a axial respecto la recta transversal t) definida como:</span></p>
+<p align="justify">&nbsp;</p>
+<p align="justify">
+<span style="font-size: 10pt; font-family:Times New Roman, serif; font-style:italic">&#963;* : V* &#8594; V* con &#963;(VA&#39;) = VA, con &#963;(VB&#39;) = VB, con &#963;(VB&#39;) = VB, (la simetr&iacute;a axial es involuci&oacute;n; &#963;(&#963;(VA&#39;)) = &#963;( VA) = VA&#39;),</span><i><br>
+</i></p>
+<p style="text-align: center">
+<span style="font-size: 10pt; font-style:italic; font-family:Times New Roman, serif">Entonces A&#39;, B&#39; C&#39; est&aacute;n alineados.</span></p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+
+</html>

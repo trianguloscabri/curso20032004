@@ -1,0 +1,282 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 5.13291666666667 y: -3.14854166666667 Window size x: 26.6435416666667 y: 15.795625
+
+1: Pt, 0, CN:0, VN:1
+Bl, W, tT, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: 133, -1, NS: 10, 18
+3: Pt, 0, CN:0, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Val: 3.59833333333333 -0.582083333333333
+p: 0, System, S: 0 C: 6 Fa: 0
+
+"B", NP: 366, 276, NS: 12, 18
+4: Pt, 0, CN:0, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Val: 9.63083333333333 -7.19666666666667
+p: 0, System, S: 0 C: 6 Fa: 0
+
+"C", NP: 72, 280, NS: 11, 18
+5: Pt, 0, CN:0, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Val: 2.59291666666667 -7.19666666666667
+p: 0, System, S: 0 C: 6 Fa: 0
+
+6: Tr, 0, CN:3, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4 5
+
+"D", NP: 226, 278, NS: 12, 18
+7: Mid, 1, CN:1, VN:1
+B, W, tT, DS:1 1, GT:1, V, nSt
+Const: 6
+p: 0, System, S: 0 C: 15 Fa: 0
+
+Ma: Compass, Const: 4 i: 0 7 i: 0 3 i: 0
+10: Ma R, F No1, VN:2
+lGr, W, t, DS:5 8, GT:0, V, nSt
+
+11: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 3
+
+12: Int, 256, CN:2, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Const: 11 10
+
+13: Seg, 0, CN:2, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 12
+
+14: Mid, 0, CN:2, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Const: 4 12
+
+15: Cir, 0, CN:2, VN:2
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 12
+
+16: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 6
+
+"E", NP: 303, -142, NS: 11, 18
+17: Int, 256, CN:2, VN:1
+B, W, tT, DS:1 1, GT:1, V, nSt
+Const: 16 15
+p: 0, System, S: 0 C: 15 Fa: 0
+
+18: Seg, 0, CN:2, VN:0
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 17
+
+19: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 5 3
+
+20: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 3 4
+
+21: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 19
+
+22: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 20
+
+"Ib", NP: -86, 64, NS: 14, 18
+23: Int, 0, CN:2, VN:1
+B, W, tT, DS:1 1, GT:1, V, nSt
+Const: 21 22
+p: 0, System, S: 0 C: 15 Fa: 0
+
+24: Seg, 0, CN:2, VN:0
+Gr, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 23
+
+25: Seg, 0, CN:2, VN:0
+Gr, W, t, DS:1 1, GT:0, V, nSt
+Const: 23 3
+
+26: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 23 11
+
+"F", NP: 72, -67, NS: 10, 18
+27: Int, 0, CN:2, VN:1
+B, W, tT, DS:1 1, GT:1, V, nSt
+Const: 11 26
+p: 0, System, S: 0 C: 15 Fa: 0
+
+28: Seg, 0, CN:2, VN:0
+Gr, W, t, DS:1 1, GT:0, V, nSt
+Const: 23 27
+
+29: Seg, 0, CN:2, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 12 27
+
+30: Mid, 0, CN:2, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Const: 4 27
+
+"J", NP: 323, -58, NS: 9, 18
+31: Cir, 0, CN:2, VN:2
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 30 27
+p: 0, System, S: 0 C: 15 Fa: 0
+
+32: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 17 6
+
+33: Int, 33024, CN:2, VN:1
+B, W, tT, DS:1 1, GT:1, V, nSt
+Const: 32 31
+
+"G", NP: 374, -18, NS: 12, 18
+34: Int, 32768, CN:2, VN:1
+B, W, tT, DS:1 1, GT:1, V, nSt
+Const: 32 31
+p: 0, System, S: 0 C: 15 Fa: 0
+
+35: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 17 33
+
+36: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 17 34
+
+37: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 34 6
+
+"M", NP: 249, 129, NS: 14, 18
+38: Int, 0, CN:2, VN:1
+R, W, tT, DS:1 1, GT:1, V, nSt
+Const: 6 37
+p: 0, System, S: 0 C: 3 Fa: 0
+
+39: Seg, 0, CN:2, VN:0
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 34 38
+
+40: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 33 6
+
+"M'", NP: 204, 85, NS: 18, 18
+41: Int, 0, CN:2, VN:1
+R, W, tT, DS:1 1, GT:1, V, nSt
+Const: 6 40
+p: 0, System, S: 0 C: 3 Fa: 0
+
+42: Seg, 0, CN:2, VN:0
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 33 41
+
+43: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 38 7
+
+44: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 43
+
+"N", NP: 122, 271, NS: 12, 18
+45: Int, 1, CN:2, VN:1
+R, W, tT, DS:1 1, GT:1, V, nSt
+Const: 6 44
+p: 0, System, S: 0 C: 3 Fa: 0
+
+46: Seg, 0, CN:2, VN:0
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 45
+
+47: Seg, 0, CN:2, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 38 45
+
+48: Seg, 0, CN:2, VN:0
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 41 7
+
+49: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 48
+
+"N'", NP: 179, 273, NS: 16, 18
+50: Int, 1, CN:2, VN:1
+R, W, tT, DS:1 1, GT:1, V, nSt
+Const: 6 49
+p: 0, System, S: 0 C: 3 Fa: 0
+
+51: Seg, 0, CN:2, VN:0
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 50
+
+52: Seg, 0, CN:2, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 41 50
+
+53: Tr, 0, CN:3, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 38 45
+
+54: Pol, 0, CN:4, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 38 45 5 3
+
+55: Lgth, 0, CN:1, VN:1
+B, W, NbD:4, FD, cm, GT:0, V, nSt
+Const: 53, Val: 100 342 610.434, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+56: Text, 1, CN:2, VN:3
+B, W, BTh:4, DS:1 1, GT:0, V, nSt
+Const: 53 55, Val: -42 342 0, A, nP, TP: -1.11125, -9.04875,TS: 5.92666666666667, -0.47625
+"perímetro de BMN   = "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+57: Lgth, 2, CN:1, VN:1
+B, W, NbD:4, FD, cm, GT:0, V, nSt
+Const: 54, Val: 91 312 610.434, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+58: Text, 1, CN:2, VN:3
+B, W, BTh:4, DS:1 1, GT:0, V, nSt
+Const: 54 57, Val: -50 312 0, A, nP, TP: -1.32291666666667, -8.255,TS: 5.90020833333333, -0.47625
+"perímetro de AMNC = "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+59: Area, 0, CN:1, VN:1
+B, W, NbD:132, FD, cm2, GT:0, V, nSt
+Const: 53, Val: 322 365 16625, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+60: Text, 2, CN:2, VN:3
+B, W, BTh:4, DS:1 1, GT:0, V, nSt
+Const: 53 59, Val: 213 365 0, A, nP, TP: 5.635625, -9.65729166666667,TS: 5.159375, -0.47625
+"área de BMN   = "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+61: Area, 2, CN:1, VN:1
+B, W, NbD:132, FD, cm2, GT:0, V, nSt
+Const: 54, Val: 299 332 16625, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+62: Text, 0, CN:2, VN:3
+B, W, BTh:4, DS:1 1, GT:0, V, nSt
+Const: 54 61, Val: 191 332 0, A, nP, TP: 5.05354166666667, -8.78416666666667,TS: 5.13291666666667, -0.47625
+"área de AMNC = "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+

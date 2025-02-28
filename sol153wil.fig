@@ -1,0 +1,166 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Used macro
+
+Cercle inscrit - Triangle, no name
+Icon:
+000000FFFFFF00F0
+0000FF000000FFF0
+000FF00000000FF0
+00FF0000000000F0
+00FF0000000000F0
+0FF0000000000000
+0FF0000000000000
+0FF0000000000000
+0FF0000000000000
+0FF0000000000000
+0FF0000000000000
+00FF000000000000
+00FF0000000000F0
+000FF00000000FF0
+0000FF000000FF00
+000000FFFFFF0000
+Mth: 0
+CN:1, ON:6, FN:3, PO:5
+CT:
+triangle, CS 3, Bl, W, t, DS:1 1, GT:0, V, nSt
+Const:
+Biss, Mth:0, 0, 0, CN:3, VN:2, Const: 3 1 2
+Biss, Mth:0, 0, 0, CN:3, VN:2, Const: 2 3 1
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 5 6, P, W, t, DS:1 1, GT:2, V, nSt
+Perp, Mth:0, 0, 0, CN:2, VN:2, Const: 7 4
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 4 8, R, W, t, DS:1 1, GT:1, I, nSt
+Cir, Mth:1, 1, 0, CN:2, VN:2, Const: 7 9, P, W, t, DS:1 1, GT:0, V, nSt
+
+Figure description:
+
+Window center x: -1.29645833333333 y: 1.42875 Window size x: 26.6435416666667 y: 16.5364583333333
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: -198, -13, NS: 10, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.78895833333333 0.396875
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: 13, -13, NS: 11, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.343958333333333 0.396875
+p: 0, System, S: 0 C: 3 Fa: 0
+
+5: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 3 4
+
+6: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 3
+
+"B", NP: -125, -128, NS: 12, 18
+7: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6, Val: -3.25997357302029 2.74428995309641
+p: 0, System, S: 0 C: 3 Fa: 0
+
+8: Tr, 0, CN:3, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 7 4
+
+Ma: Cercle inscrit - Triangle, Const: 8 i: 1
+11: Ma R, F No1, VN:1
+P, W, t, DS:1 1, GT:2, V, nSt
+
+13: Ma R, F No2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+
+14: Ma R, F No3, VN:2
+P, W, t, DS:1 1, GT:0, V, nSt
+
+15: Perp, 512, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 11 8
+
+"M", NP: -114, -8, NS: 14, 18
+16: Int, 512, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 15 8
+p: 0, System, S: 0 C: 3 Fa: 0
+
+17: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, I, nSt
+Const: 3 16, Val: -144 -14 68.662, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+18: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, I, nSt
+Const: 3 16 17, Val: -144 -14 0, nA, nP, TP: -3.81, 0.370416666666667,TS: 1.53458333333333, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+19: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, I, nSt
+Const: 4 16, Val: -80 -14 125.338, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+20: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, I, nSt
+Const: 4 16 19, Val: -80 -14 0, nA, nP, TP: -2.11666666666667, 0.370416666666667,TS: 1.53458333333333, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+21: Angle, 0, CN:3, VN:4
+B, W, t, DS:1 1, GT:16, V, nSt
+Const: 3 7 4, Val: 1, 1
+
+22: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 3 16, Val: -3 -116 68.662, A, nP
+p: 0, System, S: 0 C: 15 Fa: 0
+
+23: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 22, Val: -31 -116 0, nA, nP, TP: -0.820208333333333, 3.06916666666667,TS: 2.27541666666667, -0.47625
+"AM="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+24: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 4 16, Val: -2 -101 125.338, A, nP
+p: 0, System, S: 0 C: 15 Fa: 0
+
+25: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 24, Val: -31 -101 0, nA, nP, TP: -0.820208333333333, 2.67229166666667,TS: 2.301875, -0.47625
+"MC="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+26: Area, 1, CN:1, VN:1
+B, W, NbD:130, FD, cm2, GT:0, I, nSt
+Const: 8, Val: -37 -48 8605.96, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+27: Text, 1, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, I, nSt
+Const: 8 26, Val: -37 -48 0, nA, nP, TP: -0.978958333333333, 1.27,TS: 1.64041666666667, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+28: Area, 1, CN:1, VN:1
+B, W, NbD:130, FD, cm2, GT:0, V, nSt
+Const: 8, Val: 92 -84 8605.96, A, nP
+p: 0, System, S: 0 C: 15 Fa: 0
+
+29: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 28, Val: -31 -84 0, nA, nP, TP: -0.820208333333333, 2.2225,TS: 4.89479166666667, -0.47625
+"Area ABC=AM*MC="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+

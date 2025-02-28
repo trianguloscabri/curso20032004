@@ -1,0 +1,144 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 0.396875 y: 0 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"O", NP: -90, -32, NS: 17, 24
+3: Pt, 0, CN:0, VN:1
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.40770833333333 0.820208333333333
+p: 0, Arial, S: 19 C: 6 Fa: 1
+
+4: Cir, 0, CN:1, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 3, Val: 4.84642716338542
+
+"A", NP: -286, -67, NS: 15, 24
+5: Pt/, 0, CN:1, VN:3
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -7.19482959949026 1.57606958588443
+p: 0, Arial, S: 19 C: 6 Fa: 1
+
+"B", NP: -28, -222, NS: 16, 24
+6: Pt/, 0, CN:1, VN:3
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -0.902802325325513 5.42706345988789
+p: 0, Arial, S: 19 C: 6 Fa: 1
+
+"C", NP: 95, -65, NS: 16, 24
+7: Pt/, 0, CN:1, VN:3
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: 2.37842013820534 1.58233070141274
+p: 0, Arial, S: 19 C: 6 Fa: 1
+
+8: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 6 7
+
+9: Biss, 0, CN:3, VN:2
+O, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 6 7
+
+10: Biss, 0, CN:3, VN:2
+Br, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 5 6
+
+11: Biss, 0, CN:3, VN:2
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 7 5
+
+"I", NP: -43, -124, NS: 7, 24
+12: Int, 0, CN:2, VN:1
+Bl, W, t, DS:1 1, GT:1, V, nSt
+Const: 11 10
+p: 0, Arial, S: 19 C: 6 Fa: 1
+
+"B'", NP: -110, -58, NS: 21, 24
+13: Mid, 2, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8
+p: 0, Arial, S: 19 C: 10 Fa: 1
+
+"C'", NP: -164, -157, NS: 21, 24
+14: Mid, 0, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8
+p: 0, Arial, S: 19 C: 10 Fa: 1
+
+"A'", NP: 36, -136, NS: 20, 24
+15: Mid, 1, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8
+p: 0, Arial, S: 19 C: 10 Fa: 1
+
+16: Par, 0, CN:2, VN:2
+O, W, t, DS:5 8, GT:0, V, nSt
+Const: 13 9
+
+17: Par, 0, CN:2, VN:2
+dG, W, t, DS:5 8, GT:0, V, nSt
+Const: 14 11
+
+18: Par, 0, CN:2, VN:2
+Br, W, t, DS:5 8, GT:0, V, nSt
+Const: 15 10
+
+19: Tr, 0, CN:3, VN:0
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 14 15 13
+
+"R", NP: -79, -105, NS: 15, 24
+20: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 18 17
+p: 0, Arial, S: 19 C: 10 Fa: 1
+
+"B''", NP: -94, -196, NS: 26, 24
+21: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 16 8
+p: 0, Arial, S: 19 C: 3 Fa: 1
+
+22: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 16 8
+
+23: Int, 512, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 16 8
+
+24: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 18 8
+
+25: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 18 8
+
+"A''", NP: -230, -56, NS: 25, 24
+26: Int, 512, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 18 8
+p: 0, Arial, S: 19 C: 3 Fa: 1
+
+27: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 17 8
+
+28: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 17 8
+
+"C''", NP: 2, -53, NS: 26, 24
+29: Int, 512, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 17 8
+p: 0, Arial, S: 19 C: 3 Fa: 1
+

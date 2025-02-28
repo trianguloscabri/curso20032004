@@ -1,0 +1,95 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 3.54541666666667 y: -3.33375 Window size x: 26.6435416666667 y: 16.430625
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+R, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"B", NP: 280, -143, NS: 10, 17
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 7.26315789473684 3
+p: 0, Arial, S: 12 C: 7 Fa: 0
+
+"C", NP: 499, 157, NS: 11, 17
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 12.6578947368421 -4.71052631578947
+p: 0, Arial, S: 12 C: 7 Fa: 0
+
+"A", NP: -9, 268, NS: 9, 17
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.105263157894737 -6.73684210526316
+p: 0, Arial, S: 12 C: 7 Fa: 0
+
+6: Tr, 0, CN:3, VN:0
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4 5
+
+7: Line, 0, CN:2, VN:4
+lGr, W, t, DS:5 8, GT:1, V, nSt
+Const: 5 4
+
+8: Perp, 0, CN:2, VN:4
+V, W, t, DS:1 1, GT:1, I, nSt
+Const: 3 7
+
+"H", NP: 330, 210, NS: 11, 17
+9: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 7
+p: 0, Arial, S: 12 C: 7 Fa: 0
+
+10: Seg, 0, CN:2, VN:0
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 3 9
+
+11: Angle, 0, CN:3, VN:4
+B, W, t, DS:1 1, GT:16, V, nSt
+Const: 3 9 4, Val: 1, 0.62
+
+"M", NP: 248, 227, NS: 11, 17
+12: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 4
+p: 0, Arial, S: 12 C: 7 Fa: 0
+
+13: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 12
+
+14: Tr, 0, CN:3, VN:0
+V, Y, t, DS:1 1, GT:1, V, nSt
+Const: 3 4 12
+
+15: Tr, 0, CN:3, VN:0
+V, G, t, DS:1 1, GT:1, V, nSt
+Const: 12 5 3
+
+16: Area, 0, CN:1, VN:1
+B, W, NbD:2, FD, cm2, GT:0, V, nSt
+Const: 14, Val: 441 -95 38468.6, A, P
+p: 0, Arial, S: 12 C: 15 Fa: 0
+
+17: Text, 0, CN:2, VN:3
+B, Y, BTh:0, DS:72 231, GT:0, V, nSt
+Const: 14 16, Val: 375 -95 0, A, nP, TP: 9.921875, 2.51354166666667,TS: 3.254375, -0.449791666666667
+"Área(BMC)="#"
+p: 0, Arial, S: 12 C: 15 Fa: 0
+
+"P", NP: 142, 249, NS: 10, 17
+18: Pt/, 1, CN:1, VN:3
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 6, Val: 3.71166198721195 -6.15467709507988
+p: 0, Arial, S: 12 C: 7 Fa: 0
+
+19: Seg, 0, CN:2, VN:0
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 3 18
+

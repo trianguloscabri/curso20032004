@@ -1,0 +1,147 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: -0.079375 y: -1.42875 Window size x: 16.2983333333333 y: 9.73666666666667
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: 45, -57, NS: 10, 18
+3: Pt, 0, CN:0, VN:1
+V, W, t, DS:1 1, GT:1, V, nSt
+Val: 1.40229166666667 1.69333333333333
+p: 0, System, S: 0 C: 5 Fa: 0
+
+"B", NP: -117, 98, NS: 12, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.8575 -2.54
+p: 0, System, S: 0 C: 5 Fa: 0
+
+"C", NP: 105, 98, NS: 11, 18
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 2.8575 -2.54
+p: 0, System, S: 0 C: 5 Fa: 0
+
+6: Tr, 0, CN:3, VN:0
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 3 4 5
+
+7: Biss, 0, CN:3, VN:2
+O, W, t, DS:5 8, GT:0, V, nSt
+Const: 4 5 3
+
+8: Biss, 0, CN:3, VN:2
+O, W, t, DS:5 8, GT:0, V, nSt
+Const: 3 4 5
+
+9: Perp, 0, CN:2, VN:2
+dG, W, t, DS:5 8, GT:0, V, nSt
+Const: 4 8
+
+10: Perp, 0, CN:2, VN:2
+dG, W, t, DS:5 8, GT:0, V, nSt
+Const: 5 7
+
+"ExA", NP: -24, 283, NS: 27, 18
+11: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 10
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"I", NP: 34, 35, NS: 6, 18
+12: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 8
+p: 0, System, S: 0 C: 3 Fa: 0
+
+13: Perp, 0, CN:2, VN:2
+O, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 8
+
+14: Perp, 0, CN:2, VN:2
+O, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 7
+
+"E", NP: -8, -2, NS: 11, 18
+15: Int, 0, CN:2, VN:1
+B, W, t, DS:1 1, GT:2, V, nSt
+Const: 7 14
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"D", NP: 90, -1, NS: 12, 18
+16: Int, 0, CN:2, VN:1
+B, W, t, DS:1 1, GT:2, V, nSt
+Const: 8 13
+p: 0, System, S: 0 C: 15 Fa: 0
+
+17: Perp, 0, CN:2, VN:2
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 10
+
+18: Perp, 0, CN:2, VN:2
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 9
+
+"F", NP: -150, -1, NS: 10, 18
+19: Int, 0, CN:2, VN:1
+B, W, t, DS:1 1, GT:2, V, nSt
+Const: 9 18
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"G", NP: 161, -2, NS: 12, 18
+20: Int, 0, CN:2, VN:1
+B, W, t, DS:1 1, GT:2, V, nSt
+Const: 10 17
+p: 0, System, S: 0 C: 15 Fa: 0
+
+21: Line, 0, CN:2, VN:2
+R, W, tT, DS:1 1, GT:0, V, nSt
+Const: 19 15
+
+22: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -285 -323 0, nA, nP, TP: -7.540625, 8.54604166666667,TS: 2.43416666666667, -0.47625
+"Problema 118"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+23: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -285 -312 0, nA, nP, TP: -7.540625, 8.255,TS: 15.001875, -2.16958333333333
+"Si en un triángulo cualesquiera ABC se trazan las bisectrices exteriores e interiores de los ángulos B y C, y luego se bajan desde el vértice A del triángulo las perpendiculares AF y AG a las exteriores y AE y AD a las interiores, demuéstrese que si unimos F con G, la recta resultante pasará por los puntos E y D. 
+"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"J", NP: -35, 1, NS: 9, 18
+24: Mid, 0, CN:1, VN:1
+Br, W, t, DS:1 1, GT:2, V, nSt
+Const: 6
+p: 0, System, S: 0 C: 10 Fa: 0
+
+"K", NP: 64, 3, NS: 11, 18
+25: Mid, 0, CN:2, VN:1
+Br, W, t, DS:1 1, GT:2, V, nSt
+Const: 3 5
+p: 0, System, S: 0 C: 10 Fa: 0
+
+26: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 24 19
+
+27: Angle, 0, CN:3, VN:5
+B, W, t, DS:1 1, GT:16, V, nSt
+Const: 3 19 16, Val: -1, 1
+
+28: Angle, 0, CN:3, VN:5
+B, W, t, DS:1 1, GT:16, V, nSt
+Const: 16 4 3, Val: 1, 1
+
+29: Angle, 0, CN:3, VN:5
+B, W, t, DS:1 1, GT:16, V, nSt
+Const: 16 4 5, Val: -1, 1
+

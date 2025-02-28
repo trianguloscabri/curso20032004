@@ -1,0 +1,158 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 2.16958333333333 y: -1.45520833333333 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -44 -146 0, nA, nP, TP: -1.16416666666667, 3.86291666666667,TS: 10.4510416666667, -3.86291666666667
+"Problema 140
+
+Sea G el baricentro del triángulo.Sea M un punto cualquiera del plano.
+
+Entonces, MA MA + MB MB + MC MC = AG AG + BG BG + CG CG + 3 MG MG
+
+"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"A", NP: -27, 246, NS: 10, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -0.47625 -6.24416666666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B", NP: 85, -1, NS: 12, 18
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 2.2225 -0.502708333333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: 267, 248, NS: 11, 18
+6: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 7.19666666666667 -6.24416666666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+7: Tr, 0, CN:3, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 5 6
+
+"N", NP: 188, 119, NS: 12, 18
+8: Mid, 1, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7
+p: 0, System, S: 0 C: 3 Fa: 0
+
+9: Mid, 0, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 7
+
+10: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 9 6
+
+11: Seg, 0, CN:2, VN:0
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 8
+
+"G", NP: 105, 172, NS: 12, 18
+12: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 11
+p: 0, System, S: 0 C: 3 Fa: 0
+
+13: Seg, 0, CN:2, VN:0
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 12 5
+
+14: Seg, 0, CN:2, VN:0
+dG, W, t, DS:1 1, GT:0, V, nSt
+Const: 12 6
+
+"M", NP: 251, -30, NS: 14, 18
+15: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 6.50875 0.661458333333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+16: Seg, 0, CN:2, VN:0
+O, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 15
+
+17: Seg, 0, CN:2, VN:0
+O, W, t, DS:1 1, GT:0, V, nSt
+Const: 15 4
+
+18: Seg, 0, CN:2, VN:0
+dBr, W, t, DS:1 1, GT:0, V, nSt
+Const: 15 8
+
+19: Seg, 0, CN:2, VN:0
+O, W, t, DS:1 1, GT:0, V, nSt
+Const: 15 6
+
+"y", NP: 70, 73, NS: 10, 18
+20: Pt/, 0, CN:1, VN:3
+dG, W, t, DS:1 1, GT:1, V, nSt
+Const: 13, Val: 2.52658794162827 -2.03729166666667
+p: 0, System, S: 0 C: 9 Fa: 0
+
+"a", NP: 48, 136, NS: 10, 18
+21: Pt/, 0, CN:1, VN:3
+O, W, t, DS:1 1, GT:1, V, nSt
+Const: 17, Val: 1.79040562913907 -4.00326848785873
+p: 0, System, S: 0 C: 2 Fa: 0
+
+"x", NP: 60, 195, NS: 10, 18
+22: Pt/, 0, CN:1, VN:3
+dG, W, t, DS:1 1, GT:1, V, nSt
+Const: 11, Val: 1.56104166666667 -5.11638020833334
+p: 0, System, S: 0 C: 9 Fa: 0
+
+"x/2", NP: 155, 144, NS: 22, 18
+23: Pt/, 0, CN:1, VN:3
+dG, W, t, DS:1 1, GT:1, V, nSt
+Const: 11, Val: 4.10104166666667 -3.71030877976191
+p: 0, System, S: 0 C: 9 Fa: 0
+
+"b", NP: 145, -18, NS: 10, 18
+24: Pt/, 0, CN:1, VN:3
+O, W, t, DS:1 1, GT:1, V, nSt
+Const: 16, Val: 4.42991875 0.0968374999999999
+p: 0, System, S: 0 C: 2 Fa: 0
+
+"c", NP: 270, 82, NS: 9, 18
+25: Pt/, 0, CN:1, VN:3
+O, W, t, DS:1 1, GT:1, V, nSt
+Const: 19, Val: 6.81672942817294 -2.43018131101813
+p: 0, System, S: 0 C: 2 Fa: 0
+
+"k", NP: 208, 63, NS: 9, 18
+26: Pt/, 0, CN:1, VN:3
+dBr, W, t, DS:1 1, GT:1, V, nSt
+Const: 18, Val: 5.48853288633461 -1.62652857598978
+p: 0, System, S: 0 C: 11 Fa: 0
+
+"z", NP: 181, 196, NS: 10, 18
+27: Pt/, 0, CN:1, VN:3
+dG, W, t, DS:1 1, GT:1, V, nSt
+Const: 14, Val: 4.78895833333333 -5.151127527894
+p: 0, System, S: 0 C: 9 Fa: 0
+
+28: Seg, 0, CN:2, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 12 15
+
+"p", NP: 163, 92, NS: 10, 18
+29: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 28, Val: 4.30560473411155 -2.45599221789883
+p: 0, System, S: 0 C: 3 Fa: 0
+

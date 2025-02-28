@@ -1,0 +1,110 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: -3.28083333333333 y: 3.51895833333333 Window size x: 26.6435416666667 y: 16.430625
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"B", NP: -240, 36, NS: 12, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -6.40291666666667 -1.00541666666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: -79, 49, NS: 11, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.143125 -1.27
+p: 0, System, S: 0 C: 3 Fa: 0
+
+5: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+6: PBiss, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5
+
+"A", NP: -151, -118, NS: 10, 18
+7: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6, Val: -4.0018640010352 3.22791666666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+8: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 3
+
+9: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 4
+
+10: Num, 0, CN:0, VN:1
+B, W, NbD:2, nFD, WU, GT:0, V, nSt
+Val: -176 -69 30, nA, nP, TP: -4.65666666666667, 1.825625,TS: 0.47625, -0.47625
+30
+p: 0, System, S: 0 C: 15 Fa: 0
+
+11: Rot, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 3 7 10
+
+12: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 7 11
+
+"D", NP: -148, 45, NS: 12, 18
+13: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 12
+p: 0, System, S: 0 C: 3 Fa: 0
+
+14: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 13
+
+15: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 7 13
+
+"E", NP: -86, 30, NS: 11, 18
+16: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 15
+p: 0, System, S: 0 C: 3 Fa: 0
+
+17: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 13 16
+
+18: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 4
+
+19: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 7 13
+
+20: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 19 18
+
+"F", NP: -149, 65, NS: 10, 18
+21: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 19 18
+p: 0, System, S: 0 C: 3 Fa: 0
+
+22: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 21
+
+23: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 21
+

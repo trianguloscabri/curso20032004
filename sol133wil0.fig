@@ -1,0 +1,160 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: -0.291041666666667 y: -3.46604166666667 Window size x: 26.6435416666667 y: 16.5364583333333
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+R, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"B", NP: -66, -40, NS: 8, 14
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -1.97368421052632 0.315789473684211
+p: 0, Arial, S: 9 C: 13 Fa: 0
+
+"A", NP: -161, 354, NS: 8, 14
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.31578947368421 -9.28947368421053
+p: 0, Arial, S: 9 C: 13 Fa: 0
+
+"C", NP: 27, 243, NS: 9, 14
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.657894736842105 -6.36842105263158
+p: 0, Arial, S: 9 C: 13 Fa: 0
+
+6: Ray, 0, CN:2, VN:3
+V, W, t, DS:1 1, GT:1, V, nSt
+Const: 4 5
+
+7: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+8: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 5
+
+"N", NP: -124, 98, NS: 9, 14
+9: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7, Val: -2.81762716847986 -3.14532490443987
+p: 0, Arial, S: 9 C: 13 Fa: 0
+
+10: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 9 5
+
+11: Par, 0, CN:2, VN:4
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 10
+
+"P", NP: 136, 180, NS: 8, 14
+12: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 11 6
+p: 0, Arial, S: 9 C: 13 Fa: 0
+
+"F", NP: -11, 267, NS: 8, 14
+13: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4 12
+p: 0, Arial, S: 9 C: 13 Fa: 0
+
+14: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 9 13
+
+15: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 9 12
+
+16: Tr, 0, CN:3, VN:0
+B, Y, t, DS:1 1, GT:1, V, nSt
+Const: 4 9 13
+
+17: Pol, 0, CN:4, VN:0
+B, lBl, t, DS:1 1, GT:1, V, nSt
+Const: 9 3 5 13
+
+18: Area, 0, CN:1, VN:1
+B, W, NbD:2, FD, cm2, GT:0, V, nSt
+Const: 17, Val: 139 -82 14617.7, A, P
+p: 0, Arial, S: 9 C: 15 Fa: 0
+
+19: Text, 0, CN:2, VN:3
+B, lBl, BTh:0, DS:7 0, GT:0, V, nSt
+Const: 17 18, Val: 21 -82 0, A, nP, TP: 0.555625, 2.16958333333333,TS: 4.28625, -0.370416666666667
+"Area del cuadrilatero BNFK="#"
+p: 0, Arial, S: 9 C: 15 Fa: 0
+
+20: Area, 0, CN:1, VN:1
+B, W, NbD:2, FD, cm2, GT:0, V, nSt
+Const: 16, Val: 118 -115 14617.7, A, P
+p: 0, Arial, S: 9 C: 15 Fa: 0
+
+21: Text, 0, CN:2, VN:3
+B, Y, BTh:0, DS:8 0, GT:0, V, nSt
+Const: 16 20, Val: 19 -115 0, A, nP, TP: 0.502708333333333, 3.04270833333333,TS: 3.78354166666667, -0.370416666666667
+"Area del triángulo ANF="#"
+p: 0, Arial, S: 9 C: 15 Fa: 0
+
+22: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 16
+
+23: Int, 65536, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 16
+
+24: Seg, 0, CN:2, VN:0
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 3 12
+
+"k", NP: -1, 115, NS: 7, 14
+25: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 15
+p: 0, Arial, S: 9 C: 13 Fa: 0
+
+26: Perp, 0, CN:2, VN:4
+V, W, t, DS:1 1, GT:1, I, nSt
+Const: 12 6
+
+27: Perp, 0, CN:2, VN:4
+V, W, t, DS:1 1, GT:1, I, nSt
+Const: 4 6
+
+28: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 27, Val: -3.47242633602529 -10.7254703780622
+
+29: Perp, 0, CN:2, VN:4
+V, W, t, DS:1 1, GT:1, I, nSt
+Const: 28 27
+
+30: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 26 29
+
+31: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 28 30
+
+32: Perp, 0, CN:2, VN:4
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 13 6
+
+33: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 31 32
+
+34: Seg, 0, CN:2, VN:0
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 13 33
+
